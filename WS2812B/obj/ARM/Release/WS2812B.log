@@ -1,0 +1,399 @@
+﻿  正在清理远程项目目录
+  正在验证源
+  正在将源远程复制到“192.168.43.195”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  dma.c
+  LEDws2812b.c
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\LEDws2812b.c(23,5): warning : implicit declaration of function ‘initLEDsPCM’ [-Wimplicit-function-declaration]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\LEDws2812b.c(23,5): warning :      initLEDsPCM(1, 16, 0);                                     //�������ҵ��βδ����1��LED�ƴ�������LED�ƴ�����1��LED��
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\LEDws2812b.c(23,5): warning :      ^~~~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\LEDws2812b.c(24,5): warning : implicit declaration of function ‘setMaxBrightness’ [-Wimplicit-function-declaration]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\LEDws2812b.c(24,5): warning :      setMaxBrightness(255);                                    //���ȵ��� 0-255
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\LEDws2812b.c(24,5): warning :      ^~~~~~~~~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\LEDws2812b.c(43,13): warning : conversion from ‘double’ to ‘int’ may change value [-Wfloat-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\LEDws2812b.c(43,13): warning :      if (abs(Winkelz) >= 80)                                 //ִ��ȫ��
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\LEDws2812b.c(43,13): warning :              ^~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\LEDws2812b.c(45,28): warning : conversion from ‘double’ to ‘int’ may change value [-Wfloat-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\LEDws2812b.c(45,28): warning :          if (abs(lastWinkel - Winkelz) > 0.000000001)
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\LEDws2812b.c(45,28): warning :                  ~~~~~~~~~~~^~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\LEDws2812b.c(47,13): warning : implicit declaration of function ‘clearLEDs’; did you mean ‘clearerr’? [-Wimplicit-function-declaration]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\LEDws2812b.c(47,13): warning :              clearLEDs();
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\LEDws2812b.c(47,13): warning :              ^~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\LEDws2812b.c(47,13): warning :              clearerr
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\LEDws2812b.c(50,50): warning : implicit declaration of function ‘setR’; did you mean ‘getc’? [-Wimplicit-function-declaration]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\LEDws2812b.c(50,50): warning :                  for (LEDi = 0; LEDi < 8; LEDi++) setR(LEDi, 0, 255);
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\LEDws2812b.c(50,50): warning :                                                   ^~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\LEDws2812b.c(50,50): warning :                                                   getc
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\LEDws2812b.c(56,13): warning : implicit declaration of function ‘showLEDs’ [-Wimplicit-function-declaration]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\LEDws2812b.c(56,13): warning :              showLEDs();
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\LEDws2812b.c(56,13): warning :              ^~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\LEDws2812b.c(98,28): warning : conversion from ‘double’ to ‘int’ may change value [-Wfloat-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\LEDws2812b.c(98,28): warning :          if (abs(lastWinkel - Winkel) > 0.000000001 || abs(lastData - data_XYZ[0]) > 0.000000001)
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\LEDws2812b.c(98,28): warning :                  ~~~~~~~~~~~^~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\LEDws2812b.c(98,68): warning : conversion from ‘double’ to ‘int’ may change value [-Wfloat-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\LEDws2812b.c(98,68): warning :          if (abs(lastWinkel - Winkel) > 0.000000001 || abs(lastData - data_XYZ[0]) > 0.000000001)
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\LEDws2812b.c(98,68): warning :                                                            ~~~~~~~~~^~~~~~~~~~~~~
+  mailbox.c
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\mailbox.c(47,33): warning : implicit declaration of function ‘getpagesize’ [-Wimplicit-function-declaration]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\mailbox.c(47,33): warning :      uint32_t pagemask = ~0UL ^ (getpagesize() - 1);
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\mailbox.c(47,33): warning :                                  ^~~~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\mailbox.c(47,30): warning : conversion to ‘long unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\mailbox.c(47,30): warning :      uint32_t pagemask = ~0UL ^ (getpagesize() - 1);
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\mailbox.c(47,30): warning :                               ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\mailbox.c(48,27): warning : conversion to ‘uint32_t’ {aka ‘unsigned int’} from ‘int’ may change the sign of the result [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\mailbox.c(48,27): warning :      uint32_t offsetmask = getpagesize() - 1;
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\mailbox.c(48,27): warning :                            ^~~~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\mailbox.c(58,72): warning : conversion to ‘__off_t’ {aka ‘long int’} from ‘uint32_t’ {aka ‘unsigned int’} may change the sign of the result [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\mailbox.c(58,72): warning :      mem = mmap(0, size, PROT_READ|PROT_WRITE, MAP_SHARED, mem_fd, base & pagemask);
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\mailbox.c(58,72): warning :                                                                    ~~~~~^~~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\mailbox.c(70,30): warning : conversion to ‘long unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\mailbox.c(70,30): warning :      uint32_t pagemask = ~0UL ^ (getpagesize() - 1);
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\mailbox.c(70,30): warning :                               ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\mailbox.c(124,13): warning : conversion to ‘unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\mailbox.c(124,13): warning :      p[0] = i*sizeof *p; // actual size
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\mailbox.c(124,13): warning :              ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\mailbox.c(145,13): warning : conversion to ‘unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\mailbox.c(145,13): warning :      p[0] = i*sizeof *p; // actual size
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\mailbox.c(145,13): warning :              ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\mailbox.c(165,13): warning : conversion to ‘unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\mailbox.c(165,13): warning :      p[0] = i*sizeof *p; // actual size
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\mailbox.c(165,13): warning :              ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\mailbox.c(168,16): warning : unsigned conversion from ‘int’ to ‘unsigned int’ changes value from ‘-1’ to ‘4294967295’ [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\mailbox.c(168,16): warning :          return ~0;
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\mailbox.c(168,16): warning :                 ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\mailbox.c(186,13): warning : conversion to ‘unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\mailbox.c(186,13): warning :     p[0] = i * sizeof(*p); // actual size
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\mailbox.c(186,13): warning :              ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\mailbox.c(213,14): warning : conversion to ‘unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\mailbox.c(213,14): warning :      p[0] = i * sizeof(*p); // actual size
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\mailbox.c(213,14): warning :               ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\mailbox.c(233,14): warning : conversion to ‘unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\mailbox.c(233,14): warning :      p[0] = i * sizeof(*p); // actual size
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\mailbox.c(233,14): warning :               ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\mailbox.c(256,14): warning : conversion to ‘unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\mailbox.c(256,14): warning :      p[0] = i * sizeof(*p); // actual size
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\mailbox.c(256,14): warning :               ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\mailbox.c(275,9): warning : implicit declaration of function ‘mknod’; did you mean ‘minor’? [-Wimplicit-function-declaration]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\mailbox.c(275,9): warning :      if (mknod(filename, 0020000|0600, makedev(100, 0)) < 0) {
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\mailbox.c(275,9): warning :          ^~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\mailbox.c(275,9): warning :          minor
+  pcm.c
+  pwm.c
+  rpihw.c
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\rpihw.c(524,23): warning : unsigned conversion from ‘int’ to ‘uint32_t’ {aka ‘unsigned int’} changes value from ‘-51314689’ to ‘4243652607’ [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\rpihw.c(524,23): warning :                  hwver &= ~(RPI_WARRANTY_MASK | RPI_MANUFACTURER_MASK);
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\rpihw.c(524,23): warning :                        ^~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\rpihw.c(525,21): warning : unsigned conversion from ‘int’ to ‘uint32_t’ {aka ‘unsigned int’} changes value from ‘-51314689’ to ‘4243652607’ [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\rpihw.c(525,21): warning :                  rev &= ~(RPI_WARRANTY_MASK | RPI_MANUFACTURER_MASK);
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\rpihw.c(525,21): warning :                      ^~
+  ws2811.c
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\include\gpio.h(80,24): warning : conversion to ‘unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\include\gpio.h(80,24): warning :      gpio->fsel[regnum] &= ~(0x7 << offset);
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\include\gpio.h(80,24): warning :                         ^~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\include\gpio.h(81,24): warning : conversion to ‘unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\include\gpio.h(81,24): warning :      gpio->fsel[regnum] |= ((funcmap[function]) << offset);
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\include\gpio.h(81,24): warning :                         ^~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\include\gpio.h(91,29): warning : conversion to ‘uint32_t’ {aka ‘volatile unsigned int’} from ‘int’ may change the sign of the result [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\include\gpio.h(91,29): warning :          gpio->set[regnum] = (1 << offset);
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\include\gpio.h(91,29): warning :                              ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\include\gpio.h(95,29): warning : conversion to ‘uint32_t’ {aka ‘volatile unsigned int’} from ‘int’ may change the sign of the result [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\include\gpio.h(95,29): warning :          gpio->clr[regnum] = (1 << offset);
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\include\gpio.h(95,29): warning :                              ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\include\gpio.h(105,24): warning : conversion to ‘unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\include\gpio.h(105,24): warning :      gpio->fsel[regnum] &= ~(0x7 << offset);
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\include\gpio.h(105,24): warning :                         ^~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\include\gpio.h(106,24): warning : conversion to ‘unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\include\gpio.h(106,24): warning :      gpio->fsel[regnum] |= ((function & 0x7) << offset);
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\include\gpio.h(106,24): warning :                         ^~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(127,9): warning : implicit declaration of function ‘clock_gettime’; did you mean ‘localtime’? [-Wimplicit-function-declaration]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(127,9): warning :      if (clock_gettime(4, &t) != 0) {
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(127,9): warning :          ^~~~~~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(127,9): warning :          localtime
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(131,42): warning : conversion to ‘long long unsigned int’ from ‘long int’ may change the sign of the result [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(131,42): warning :      return (uint64_t) t.tv_sec * 1000000 + t.tv_nsec / 1000;
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(131,42): warning :                                           ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(280,23): warning : conversion to ‘uint32_t’ {aka ‘unsigned int’} from ‘int’ may change the sign of the result [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(280,23): warning :      uint32_t offset = (uint8_t *)virt - mbox->virt_addr;
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(280,23): warning :                        ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(300,5): warning : implicit declaration of function ‘usleep’; did you mean ‘sleep’? [-Wimplicit-function-declaration]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(300,5): warning :      usleep(10);
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(300,5): warning :      ^~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(300,5): warning :      sleep
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\include\pwm.h(90,50): warning : unsigned conversion from ‘int’ to ‘uint32_t’ {aka ‘volatile unsigned int’} changes value from ‘-2147481853’ to ‘2147485443’ [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\include\pwm.h(90,50): warning :  #define RPI_PWM_DMAC_ENAB                        (1 << 31)
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\include\pwm.h(90,50): warning :                                                   ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(379,17): message : in expansion of macro ‘RPI_PWM_DMAC_ENAB’
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(379,17): message :      pwm->dmac = RPI_PWM_DMAC_ENAB | RPI_PWM_DMAC_PANIC(7) | RPI_PWM_DMAC_DREQ(3);
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(379,17): message :                  ^~~~~~~~~~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(64,80): warning : conversion to ‘uint32_t’ {aka ‘unsigned int’} from ‘int’ may change the sign of the result [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(64,80): warning :  #define LED_BIT_COUNT(leds, freq)                ((leds * LED_COLOURS * 8 * 3) + ((LED_RESET_uS * \
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(64,80): warning :                                                                                 ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(71,55): message : in expansion of macro ‘LED_BIT_COUNT’
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(71,55): message :  #define PWM_BYTE_COUNT(leds, freq)               (((((LED_BIT_COUNT(leds, freq) >> 3) & ~0x7) + 4) + 4) * \
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(71,55): message :                                                        ^~~~~~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(395,18): message : in expansion of macro ‘PWM_BYTE_COUNT’
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(395,18): message :      byte_count = PWM_BYTE_COUNT(maxcount, freq);
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(395,18): message :                   ^~~~~~~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(71,87): warning : unsigned conversion from ‘int’ to ‘uint32_t’ {aka ‘unsigned int’} changes value from ‘-8’ to ‘4294967288’ [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(71,87): warning :  #define PWM_BYTE_COUNT(leds, freq)               (((((LED_BIT_COUNT(leds, freq) >> 3) & ~0x7) + 4) + 4) * \
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(71,87): warning :                                                                                        ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(395,18): message : in expansion of macro ‘PWM_BYTE_COUNT’
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(395,18): message :      byte_count = PWM_BYTE_COUNT(maxcount, freq);
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(395,18): message :                   ^~~~~~~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(71,50): warning : conversion to ‘int32_t’ {aka ‘int’} from ‘uint32_t’ {aka ‘unsigned int’} may change the sign of the result [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(71,50): warning :  #define PWM_BYTE_COUNT(leds, freq)               (((((LED_BIT_COUNT(leds, freq) >> 3) & ~0x7) + 4) + 4) * \
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(71,50): warning :                                                   ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(395,18): message : in expansion of macro ‘PWM_BYTE_COUNT’
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(395,18): message :      byte_count = PWM_BYTE_COUNT(maxcount, freq);
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(395,18): message :                   ^~~~~~~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(405,24): warning : conversion to ‘uint32_t’ {aka ‘volatile unsigned int’} from ‘int32_t’ {aka ‘int’} may change the sign of the result [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(405,24): warning :      dma_cb->txfr_len = byte_count;
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(405,24): warning :                         ^~~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\include\pcm.h(101,49): warning : unsigned conversion from ‘int’ to ‘uint32_t’ {aka ‘volatile unsigned int’} changes value from ‘-1073217536’ to ‘3221749760’ [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\include\pcm.h(101,49): warning :  #define RPI_PCM_TXC_CH1WEX                      (1 << 31)
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\include\pcm.h(101,49): warning :                                                  ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(461,16): message : in expansion of macro ‘RPI_PCM_TXC_CH1WEX’
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(461,16): message :      pcm->txc = RPI_PCM_TXC_CH1WEX | RPI_PCM_TXC_CH1EN | RPI_PCM_TXC_CH1POS(0) | RPI_PCM_TXC_CH1WID(8);
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(461,16): message :                 ^~~~~~~~~~~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(64,80): warning : conversion to ‘uint32_t’ {aka ‘unsigned int’} from ‘int’ may change the sign of the result [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(64,80): warning :  #define LED_BIT_COUNT(leds, freq)                ((leds * LED_COLOURS * 8 * 3) + ((LED_RESET_uS * \
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(64,80): warning :                                                                                 ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(73,54): message : in expansion of macro ‘LED_BIT_COUNT’
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(73,54): message :  #define PCM_BYTE_COUNT(leds, freq)               ((((LED_BIT_COUNT(leds, freq) >> 3) & ~0x7) + 4) + 4)
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(73,54): message :                                                       ^~~~~~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(469,18): message : in expansion of macro ‘PCM_BYTE_COUNT’
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(469,18): message :      byte_count = PCM_BYTE_COUNT(maxcount, freq);
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(469,18): message :                   ^~~~~~~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(73,86): warning : unsigned conversion from ‘int’ to ‘uint32_t’ {aka ‘unsigned int’} changes value from ‘-8’ to ‘4294967288’ [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(73,86): warning :  #define PCM_BYTE_COUNT(leds, freq)               ((((LED_BIT_COUNT(leds, freq) >> 3) & ~0x7) + 4) + 4)
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(73,86): warning :                                                                                       ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(469,18): message : in expansion of macro ‘PCM_BYTE_COUNT’
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(469,18): message :      byte_count = PCM_BYTE_COUNT(maxcount, freq);
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(469,18): message :                   ^~~~~~~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(73,50): warning : conversion to ‘int32_t’ {aka ‘int’} from ‘uint32_t’ {aka ‘unsigned int’} may change the sign of the result [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(73,50): warning :  #define PCM_BYTE_COUNT(leds, freq)               ((((LED_BIT_COUNT(leds, freq) >> 3) & ~0x7) + 4) + 4)
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(73,50): warning :                                                   ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(469,18): message : in expansion of macro ‘PCM_BYTE_COUNT’
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(469,18): message :      byte_count = PCM_BYTE_COUNT(maxcount, freq);
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(469,18): message :                   ^~~~~~~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(478,24): warning : conversion to ‘uint32_t’ {aka ‘volatile unsigned int’} from ‘int32_t’ {aka ‘int’} may change the sign of the result [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(478,24): warning :      dma_cb->txfr_len = byte_count;
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(478,24): warning :                         ^~~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\include\dma.h(58,50): warning : unsigned conversion from ‘int’ to ‘uint32_t’ {aka ‘volatile unsigned int’} changes value from ‘-2147483648’ to ‘2147483648’ [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\include\dma.h(58,50): warning :  #define RPI_DMA_CS_RESET                         (1 << 31)
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\include\dma.h(58,50): warning :                                                   ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(503,15): message : in expansion of macro ‘RPI_DMA_CS_RESET’
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(503,15): message :      dma->cs = RPI_DMA_CS_RESET;
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(503,15): message :                ^~~~~~~~~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(558,37): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(558,37): warning :              gpio_function_set(gpio, pinnum, altnum);
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(558,37): warning :                                      ^~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(558,45): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(558,45): warning :              gpio_function_set(gpio, pinnum, altnum);
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(558,45): warning :                                              ^~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(64,80): warning : conversion to ‘uint32_t’ {aka ‘unsigned int’} from ‘int’ may change the sign of the result [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(64,80): warning :  #define LED_BIT_COUNT(leds, freq)                ((leds * LED_COLOURS * 8 * 3) + ((LED_RESET_uS * \
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(64,80): warning :                                                                                 ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(71,55): message : in expansion of macro ‘LED_BIT_COUNT’
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(71,55): message :  #define PWM_BYTE_COUNT(leds, freq)               (((((LED_BIT_COUNT(leds, freq) >> 3) & ~0x7) + 4) + 4) * \
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(71,55): message :                                                        ^~~~~~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(578,22): message : in expansion of macro ‘PWM_BYTE_COUNT’
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(578,22): message :      int wordcount = (PWM_BYTE_COUNT(maxcount, ws2811->freq) / sizeof(uint32_t)) /
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(578,22): message :                       ^~~~~~~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(71,87): warning : unsigned conversion from ‘int’ to ‘uint32_t’ {aka ‘unsigned int’} changes value from ‘-8’ to ‘4294967288’ [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(71,87): warning :  #define PWM_BYTE_COUNT(leds, freq)               (((((LED_BIT_COUNT(leds, freq) >> 3) & ~0x7) + 4) + 4) * \
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(71,87): warning :                                                                                        ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(578,22): message : in expansion of macro ‘PWM_BYTE_COUNT’
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(578,22): message :      int wordcount = (PWM_BYTE_COUNT(maxcount, ws2811->freq) / sizeof(uint32_t)) /
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(578,22): message :                       ^~~~~~~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(578,21): warning : conversion to ‘int’ from ‘uint32_t’ {aka ‘unsigned int’} may change the sign of the result [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(578,21): warning :      int wordcount = (PWM_BYTE_COUNT(maxcount, ws2811->freq) / sizeof(uint32_t)) /
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(578,21): warning :                      ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(64,80): warning : conversion to ‘uint32_t’ {aka ‘unsigned int’} from ‘int’ may change the sign of the result [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(64,80): warning :  #define LED_BIT_COUNT(leds, freq)                ((leds * LED_COLOURS * 8 * 3) + ((LED_RESET_uS * \
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(64,80): warning :                                                                                 ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(73,54): message : in expansion of macro ‘LED_BIT_COUNT’
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(73,54): message :  #define PCM_BYTE_COUNT(leds, freq)               ((((LED_BIT_COUNT(leds, freq) >> 3) & ~0x7) + 4) + 4)
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(73,54): message :                                                       ^~~~~~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(606,21): message : in expansion of macro ‘PCM_BYTE_COUNT’
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(606,21): message :      int wordcount = PCM_BYTE_COUNT(maxcount, ws2811->freq) / sizeof(uint32_t);
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(606,21): message :                      ^~~~~~~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(73,86): warning : unsigned conversion from ‘int’ to ‘uint32_t’ {aka ‘unsigned int’} changes value from ‘-8’ to ‘4294967288’ [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(73,86): warning :  #define PCM_BYTE_COUNT(leds, freq)               ((((LED_BIT_COUNT(leds, freq) >> 3) & ~0x7) + 4) + 4)
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(73,86): warning :                                                                                       ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(606,21): message : in expansion of macro ‘PCM_BYTE_COUNT’
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(606,21): message :      int wordcount = PCM_BYTE_COUNT(maxcount, ws2811->freq) / sizeof(uint32_t);
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(606,21): message :                      ^~~~~~~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(73,50): warning : conversion to ‘int’ from ‘uint32_t’ {aka ‘unsigned int’} may change the sign of the result [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(73,50): warning :  #define PCM_BYTE_COUNT(leds, freq)               ((((LED_BIT_COUNT(leds, freq) >> 3) & ~0x7) + 4) + 4)
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(73,50): warning :                                                   ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(606,21): message : in expansion of macro ‘PCM_BYTE_COUNT’
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(606,21): message :      int wordcount = PCM_BYTE_COUNT(maxcount, ws2811->freq) / sizeof(uint32_t);
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(606,21): message :                      ^~~~~~~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(816,37): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(816,37): warning :      gpio_function_set(device->gpio, pinnum, 0); // SPI-MOSI ALT0
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(816,37): warning :                                      ^~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(820,49): warning : conversion to ‘unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(820,49): warning :      channel->leds = malloc(sizeof(ws2811_led_t) * channel->count);
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(820,49): warning :                                                  ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(826,51): warning : conversion to ‘unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(826,51): warning :      memset(channel->leds, 0, sizeof(ws2811_led_t) * channel->count);
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(826,51): warning :                                                    ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(838,29): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(838,29): warning :          channel->gamma[x] = x;
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(838,29): warning :                              ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(842,23): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(842,23): warning :      channel->wshift = (channel->strip_type >> 24) & 0xff;
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(842,23): warning :                        ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(843,23): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(843,23): warning :      channel->rshift = (channel->strip_type >> 16) & 0xff;
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(843,23): warning :                        ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(844,23): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(844,23): warning :      channel->gshift = (channel->strip_type >> 8)  & 0xff;
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(844,23): warning :                        ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(845,23): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(845,23): warning :      channel->bshift = (channel->strip_type >> 0)  & 0xff;
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(845,23): warning :                        ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(64,80): warning : conversion to ‘uint32_t’ {aka ‘unsigned int’} from ‘int’ may change the sign of the result [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(64,80): warning :  #define LED_BIT_COUNT(leds, freq)                ((leds * LED_COLOURS * 8 * 3) + ((LED_RESET_uS * \
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(64,80): warning :                                                                                 ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(73,54): message : in expansion of macro ‘LED_BIT_COUNT’
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(73,54): message :  #define PCM_BYTE_COUNT(leds, freq)               ((((LED_BIT_COUNT(leds, freq) >> 3) & ~0x7) + 4) + 4)
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(73,54): message :                                                       ^~~~~~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(848,30): message : in expansion of macro ‘PCM_BYTE_COUNT’
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(848,30): message :      device->pxl_raw = malloc(PCM_BYTE_COUNT(device->max_count, ws2811->freq));
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(848,30): message :                               ^~~~~~~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(73,86): warning : unsigned conversion from ‘int’ to ‘uint32_t’ {aka ‘unsigned int’} changes value from ‘-8’ to ‘4294967288’ [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(73,86): warning :  #define PCM_BYTE_COUNT(leds, freq)               ((((LED_BIT_COUNT(leds, freq) >> 3) & ~0x7) + 4) + 4)
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(73,86): warning :                                                                                       ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(848,30): message : in expansion of macro ‘PCM_BYTE_COUNT’
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(848,30): message :      device->pxl_raw = malloc(PCM_BYTE_COUNT(device->max_count, ws2811->freq));
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(848,30): message :                               ^~~~~~~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(64,80): warning : conversion to ‘uint32_t’ {aka ‘unsigned int’} from ‘int’ may change the sign of the result [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(64,80): warning :  #define LED_BIT_COUNT(leds, freq)                ((leds * LED_COLOURS * 8 * 3) + ((LED_RESET_uS * \
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(64,80): warning :                                                                                 ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(73,54): message : in expansion of macro ‘LED_BIT_COUNT’
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(73,54): message :  #define PCM_BYTE_COUNT(leds, freq)               ((((LED_BIT_COUNT(leds, freq) >> 3) & ~0x7) + 4) + 4)
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(73,54): message :                                                       ^~~~~~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(867,14): message : in expansion of macro ‘PCM_BYTE_COUNT’
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(867,14): message :      tr.len = PCM_BYTE_COUNT(ws2811->device->max_count, ws2811->freq);
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(867,14): message :               ^~~~~~~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(73,86): warning : unsigned conversion from ‘int’ to ‘uint32_t’ {aka ‘unsigned int’} changes value from ‘-8’ to ‘4294967288’ [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(73,86): warning :  #define PCM_BYTE_COUNT(leds, freq)               ((((LED_BIT_COUNT(leds, freq) >> 3) & ~0x7) + 4) + 4)
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(73,86): warning :                                                                                       ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(867,14): message : in expansion of macro ‘PCM_BYTE_COUNT’
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(867,14): message :      tr.len = PCM_BYTE_COUNT(ws2811->device->max_count, ws2811->freq);
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(867,14): message :               ^~~~~~~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(64,80): warning : conversion to ‘uint32_t’ {aka ‘unsigned int’} from ‘int’ may change the sign of the result [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(64,80): warning :  #define LED_BIT_COUNT(leds, freq)                ((leds * LED_COLOURS * 8 * 3) + ((LED_RESET_uS * \
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(64,80): warning :                                                                                 ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(71,55): message : in expansion of macro ‘LED_BIT_COUNT’
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(71,55): message :  #define PWM_BYTE_COUNT(leds, freq)               (((((LED_BIT_COUNT(leds, freq) >> 3) & ~0x7) + 4) + 4) * \
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(71,55): message :                                                        ^~~~~~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(929,29): message : in expansion of macro ‘PWM_BYTE_COUNT’
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(929,29): message :          device->mbox.size = PWM_BYTE_COUNT(device->max_count, ws2811->freq) +
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(929,29): message :                              ^~~~~~~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(71,87): warning : unsigned conversion from ‘int’ to ‘uint32_t’ {aka ‘unsigned int’} changes value from ‘-8’ to ‘4294967288’ [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(71,87): warning :  #define PWM_BYTE_COUNT(leds, freq)               (((((LED_BIT_COUNT(leds, freq) >> 3) & ~0x7) + 4) + 4) * \
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(71,87): warning :                                                                                        ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(929,29): message : in expansion of macro ‘PWM_BYTE_COUNT’
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(929,29): message :          device->mbox.size = PWM_BYTE_COUNT(device->max_count, ws2811->freq) +
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(929,29): message :                              ^~~~~~~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(64,80): warning : conversion to ‘uint32_t’ {aka ‘unsigned int’} from ‘int’ may change the sign of the result [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(64,80): warning :  #define LED_BIT_COUNT(leds, freq)                ((leds * LED_COLOURS * 8 * 3) + ((LED_RESET_uS * \
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(64,80): warning :                                                                                 ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(73,54): message : in expansion of macro ‘LED_BIT_COUNT’
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(73,54): message :  #define PCM_BYTE_COUNT(leds, freq)               ((((LED_BIT_COUNT(leds, freq) >> 3) & ~0x7) + 4) + 4)
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(73,54): message :                                                       ^~~~~~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(934,29): message : in expansion of macro ‘PCM_BYTE_COUNT’
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(934,29): message :          device->mbox.size = PCM_BYTE_COUNT(device->max_count, ws2811->freq) +
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(934,29): message :                              ^~~~~~~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(73,86): warning : unsigned conversion from ‘int’ to ‘uint32_t’ {aka ‘unsigned int’} changes value from ‘-8’ to ‘4294967288’ [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(73,86): warning :  #define PCM_BYTE_COUNT(leds, freq)               ((((LED_BIT_COUNT(leds, freq) >> 3) & ~0x7) + 4) + 4)
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(73,86): warning :                                                                                       ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(934,29): message : in expansion of macro ‘PCM_BYTE_COUNT’
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(934,29): message :          device->mbox.size = PCM_BYTE_COUNT(device->max_count, ws2811->freq) +
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(934,29): message :                              ^~~~~~~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(939,63): warning : unsigned conversion from ‘int’ to ‘unsigned int’ changes value from ‘-4096’ to ‘4294963200’ [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(939,63): warning :      device->mbox.size = (device->mbox.size + (PAGE_SIZE - 1)) & ~(PAGE_SIZE - 1);
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(939,63): warning :                                                                ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(984,53): warning : conversion to ‘unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(984,53): warning :          channel->leds = malloc(sizeof(ws2811_led_t) * channel->count);
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(984,53): warning :                                                      ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(991,55): warning : conversion to ‘unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(991,55): warning :          memset(channel->leds, 0, sizeof(ws2811_led_t) * channel->count);
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(991,55): warning :                                                        ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(1004,33): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(1004,33): warning :              channel->gamma[x] = x;
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(1004,33): warning :                                  ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(1008,27): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(1008,27): warning :          channel->wshift = (channel->strip_type >> 24) & 0xff;
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(1008,27): warning :                            ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(1009,27): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(1009,27): warning :          channel->rshift = (channel->strip_type >> 16) & 0xff;
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(1009,27): warning :                            ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(1010,27): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(1010,27): warning :          channel->gshift = (channel->strip_type >> 8)  & 0xff;
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(1010,27): warning :                            ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(1011,27): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(1011,27): warning :          channel->bshift = (channel->strip_type >> 0)  & 0xff;
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(1011,27): warning :                            ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(1161,33): warning : conversion to ‘unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(1161,33): warning :          if (channel->strip_type & SK6812_SHIFT_WMASK)
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(1161,33): warning :                                  ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(1167,48): warning : conversion from ‘double’ to ‘uint32_t’ {aka ‘const unsigned int’} may change value [-Wfloat-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(1167,48): warning :          const uint32_t channel_protocol_time = channel->count * array_size * 8 * 1.25;
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(1167,48): warning :                                                 ^~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(1179,80): warning : conversion to ‘ws2811_led_t’ {aka ‘unsigned int’} from ‘int’ may change the sign of the result [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(1179,80): warning :                  channel->gamma[(((channel->leds[i] >> channel->rshift) & 0xff) * scale) >> 8], // red
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(1179,80): warning :                                                                                 ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(1180,80): warning : conversion to ‘ws2811_led_t’ {aka ‘unsigned int’} from ‘int’ may change the sign of the result [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(1180,80): warning :                  channel->gamma[(((channel->leds[i] >> channel->gshift) & 0xff) * scale) >> 8], // green
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(1180,80): warning :                                                                                 ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(1181,80): warning : conversion to ‘ws2811_led_t’ {aka ‘unsigned int’} from ‘int’ may change the sign of the result [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(1181,80): warning :                  channel->gamma[(((channel->leds[i] >> channel->bshift) & 0xff) * scale) >> 8], // blue
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(1181,80): warning :                                                                                 ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(1182,80): warning : conversion to ‘ws2811_led_t’ {aka ‘unsigned int’} from ‘int’ may change the sign of the result [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(1182,80): warning :                  channel->gamma[(((channel->leds[i] >> channel->wshift) & 0xff) * scale) >> 8], // white
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(1182,80): warning :                                                                                 ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(1206,41): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘volatile unsigned char’} may change value [-Wconversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(1206,41): warning :                              *byteptr &= ~(1 << bitpos);
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(1206,41): warning :                                          ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(1209,45): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘volatile unsigned char’} may change value [-Wconversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(1209,45): warning :                                  *byteptr |= (1 << bitpos);
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(1209,45): warning :                                              ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(1214,38): warning : conversion to ‘uint32_t’ {aka ‘unsigned int’} from ‘int’ may change the sign of the result [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(1214,38): warning :                              *wordptr &= ~(1 << bitpos);
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(1214,38): warning :                                       ^~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(1217,42): warning : conversion to ‘uint32_t’ {aka ‘unsigned int’} from ‘int’ may change the sign of the result [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(1217,42): warning :                                  *wordptr |= (1 << bitpos);
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(1217,42): warning :                                           ^~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(1299,40): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2811.c(1299,40): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+  ws2812b_rpi.c
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2812b_rpi.c(120,32): warning : conversion to ‘int’ from ‘unsigned int’ may change the sign of the result [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2812b_rpi.c(120,32): warning :    ledstring.channel[0].count = numLEDs;
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2812b_rpi.c(120,32): warning :                                 ^~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2812b_rpi.c(138,16): warning : conversion from ‘unsigned int’ to ‘unsigned char’ may change value [-Wconversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2812b_rpi.c(138,16): warning :    initLEDs(w,h,t,21);
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2812b_rpi.c(138,16): warning :                 ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2812b_rpi.c(141,16): warning : conversion from ‘unsigned int’ to ‘unsigned char’ may change value [-Wconversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2812b_rpi.c(141,16): warning :    initLEDs(w,h,t,12);
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2812b_rpi.c(141,16): warning :                 ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2812b_rpi.c(144,16): warning : conversion from ‘unsigned int’ to ‘unsigned char’ may change value [-Wconversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2812b_rpi.c(144,16): warning :    initLEDs(w,h,t,19);
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2812b_rpi.c(144,16): warning :                 ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2812b_rpi.c(222,7): warning : conversion from ‘long unsigned int’ to ‘unsigned char’ may change value [-Wconversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2812b_rpi.c(222,7): warning :    r = rgb >> 16;
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2812b_rpi.c(222,7): warning :        ^~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2812b_rpi.c(245,9): warning : conversion to ‘long unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2812b_rpi.c(245,9): warning :    rgb = (pixel[x].r << 16) + (pixel[x].g << 8) + pixel[x].b;
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2812b_rpi.c(245,9): warning :          ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2812b_rpi.c(99,13): warning : ‘sig_handler’ defined but not used [-Wunused-function]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2812b_rpi.c(99,13): warning :  static void sig_handler(int _) {
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\src\ws2812b_rpi.c(99,13): warning :              ^~~~~~~~~~~
+  正在存档对象
+  WS2812B.vcxproj -> C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\WS2812B\bin\ARM\Release\libWS2812B.a

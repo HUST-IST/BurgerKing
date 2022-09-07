@@ -1,0 +1,33 @@
+﻿  正在清理远程项目目录
+  正在验证源
+  正在将源远程复制到“192.168.137.42”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  share-memory-set.cc
+  share-memory-get.cc
+  正在链接对象
+/usr/bin/ld : error : /home/pi/projects/共享内存/obj/ARM/Release/share-memory-get.o: in function `std::ctype<char>::do_widen(char) const':
+C:\Users\49266\OneDrive\桌面\HiWi\树莓派\Linux系统的程序备份\20.04.2021-开辟共享内存\共享内存\共享内存\share-memory.h(106): error : multiple definition of `mars::ipc::ShareMemory::~ShareMemory()'; /home/pi/projects/共享内存/obj/ARM/Release/share-memory-set.o:/home/pi/projects/共享内存/share-memory.h:106: first defined here
+/usr/bin/ld : error : /home/pi/projects/共享内存/obj/ARM/Release/share-memory-get.o: in function `std::ctype<char>::do_widen(char) const':
+C:\Users\49266\OneDrive\桌面\HiWi\树莓派\Linux系统的程序备份\20.04.2021-开辟共享内存\共享内存\共享内存\share-memory.h(106): error : multiple definition of `mars::ipc::ShareMemory::~ShareMemory()'; /home/pi/projects/共享内存/obj/ARM/Release/share-memory-set.o:/home/pi/projects/共享内存/share-memory.h:106: first defined here
+/usr/bin/ld : error : /home/pi/projects/共享内存/obj/ARM/Release/share-memory-get.o: in function `mars::ipc::ShareMemory::~ShareMemory()':
+C:\Users\49266\OneDrive\桌面\HiWi\树莓派\Linux系统的程序备份\20.04.2021-开辟共享内存\共享内存\共享内存\share-memory.h(106): error : multiple definition of `mars::ipc::ShareMemory::~ShareMemory()'; /home/pi/projects/共享内存/obj/ARM/Release/share-memory-set.o:/home/pi/projects/共享内存/share-memory.h:106: first defined here
+/usr/bin/ld : error : /home/pi/projects/共享内存/obj/ARM/Release/share-memory-get.o: in function `mars::ipc::ShareMemory::create_share_memory()':
+C:\Users\49266\OneDrive\桌面\HiWi\树莓派\Linux系统的程序备份\20.04.2021-开辟共享内存\共享内存\共享内存\share-memory.h(66): error : multiple definition of `mars::ipc::ShareMemory::create_share_memory()'; /home/pi/projects/共享内存/obj/ARM/Release/share-memory-set.o:/home/pi/projects/共享内存/share-memory.h:66: first defined here
+/usr/bin/ld : error : /home/pi/projects/共享内存/obj/ARM/Release/share-memory-get.o: in function `mars::ipc::ShareMemory::ShareMemory()':
+C:\Users\49266\OneDrive\桌面\HiWi\树莓派\Linux系统的程序备份\20.04.2021-开辟共享内存\共享内存\共享内存\share-memory.h(49): error : multiple definition of `mars::ipc::ShareMemory::ShareMemory()'; /home/pi/projects/共享内存/obj/ARM/Release/share-memory-set.o:/home/pi/projects/共享内存/share-memory.h:49: first defined here
+/usr/bin/ld : error : /home/pi/projects/共享内存/obj/ARM/Release/share-memory-get.o: in function `mars::ipc::ShareMemory::ShareMemory()':
+C:\Users\49266\OneDrive\桌面\HiWi\树莓派\Linux系统的程序备份\20.04.2021-开辟共享内存\共享内存\共享内存\share-memory.h(49): error : multiple definition of `mars::ipc::ShareMemory::ShareMemory()'; /home/pi/projects/共享内存/obj/ARM/Release/share-memory-set.o:/home/pi/projects/共享内存/share-memory.h:49: first defined here
+/usr/bin/ld : error : /home/pi/projects/共享内存/obj/ARM/Release/share-memory-get.o: in function `mars::ipc::ShareMemory::ShareMemory(unsigned int)':
+C:\Users\49266\OneDrive\桌面\HiWi\树莓派\Linux系统的程序备份\20.04.2021-开辟共享内存\共享内存\共享内存\share-memory.h(57): error : multiple definition of `mars::ipc::ShareMemory::ShareMemory(unsigned int)'; /home/pi/projects/共享内存/obj/ARM/Release/share-memory-set.o:/home/pi/projects/共享内存/share-memory.h:57: first defined here
+/usr/bin/ld : error : /home/pi/projects/共享内存/obj/ARM/Release/share-memory-get.o: in function `mars::ipc::ShareMemory::ShareMemory(unsigned int)':
+C:\Users\49266\OneDrive\桌面\HiWi\树莓派\Linux系统的程序备份\20.04.2021-开辟共享内存\共享内存\共享内存\share-memory.h(57): error : multiple definition of `mars::ipc::ShareMemory::ShareMemory(unsigned int)'; /home/pi/projects/共享内存/obj/ARM/Release/share-memory-set.o:/home/pi/projects/共享内存/share-memory.h:57: first defined here
+/usr/bin/ld : error : /home/pi/projects/共享内存/obj/ARM/Release/share-memory-get.o: in function `main':
+C:\Users\49266\OneDrive\桌面\HiWi\树莓派\Linux系统的程序备份\20.04.2021-开辟共享内存\共享内存\共享内存\share-memory-get.cc(17): error : multiple definition of `main'; /home/pi/projects/共享内存/obj/ARM/Release/share-memory-set.o:/home/pi/projects/共享内存/share-memory-set.cc:18: first defined here
+/usr/bin/ld : error : /home/pi/projects/共享内存/obj/ARM/Release/share-memory-get.o:(.rodata+0x10): multiple definition of `typeinfo name for mars::ipc::ShareMemory'; /home/pi/projects/共享内存/obj/ARM/Release/share-memory-set.o:(.rodata+0x10): first defined here
+/usr/bin/ld : error : /home/pi/projects/共享内存/obj/ARM/Release/share-memory-get.o:(.rodata+0x2c): multiple definition of `typeinfo for mars::ipc::ShareMemory'; /home/pi/projects/共享内存/obj/ARM/Release/share-memory-set.o:(.rodata+0x2c): first defined here
+/usr/bin/ld : error : /home/pi/projects/共享内存/obj/ARM/Release/share-memory-get.o:(.rodata+0x0): multiple definition of `vtable for mars::ipc::ShareMemory'; /home/pi/projects/共享内存/obj/ARM/Release/share-memory-set.o:(.rodata+0x0): first defined here
+/usr/bin/ld : error : -lwiringPi kann nicht gefunden werden
+collect2 : error : ld returned 1 exit status

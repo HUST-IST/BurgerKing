@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\dma.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mailbox.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pcm.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pwm.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rpihw.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ws2811.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ws2812b_rpi.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LEDws2812b.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\clk.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dma.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\gpio.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\mailbox.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pcm.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\pwm.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rpihw.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ws2811.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ws2812b_rpi.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LEDws2812b.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{36ad48e0-984d-4413-b687-2511203f2275}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{687998b2-e3f6-483b-9fb0-4a82ac502090}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

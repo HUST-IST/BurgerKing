@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM64">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM64">
+      <Configuration>Release</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\dma.c" />
+    <ClCompile Include="src\LEDws2812b.c" />
+    <ClCompile Include="src\mailbox.c" />
+    <ClCompile Include="src\pcm.c" />
+    <ClCompile Include="src\pwm.c" />
+    <ClCompile Include="src\rpihw.c" />
+    <ClCompile Include="src\ws2811.c" />
+    <ClCompile Include="src\ws2812b_rpi.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\clk.h" />
+    <ClInclude Include="include\dma.h" />
+    <ClInclude Include="include\gpio.h" />
+    <ClInclude Include="include\LEDws2812b.h" />
+    <ClInclude Include="include\mailbox.h" />
+    <ClInclude Include="include\pcm.h" />
+    <ClInclude Include="include\pwm.h" />
+    <ClInclude Include="include\rpihw.h" />
+    <ClInclude Include="include\ws2811.h" />
+    <ClInclude Include="include\ws2812b_rpi.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3dc26458-c362-461e-80a6-b80d8100633d}</ProjectGuid>
+    <Keyword>Linux</Keyword>
+    <RootNamespace>WS2812B</RootNamespace>
+    <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
+    <ApplicationType>Linux</ApplicationType>
+    <ApplicationTypeRevision>1.0</ApplicationTypeRevision>
+    <TargetLinuxPlatform>Raspberry</TargetLinuxPlatform>
+    <LinuxProjectType>{8748239F-558C-44D1-944B-07B09C35B330}</LinuxProjectType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfStl>libstdc++_shared</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfStl>libstdc++_static</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <IncludePath>$(SolutionDir)WS2812B\include;$(SolutionDir)WS2812B\src;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)WS2812B\include;$(SolutionDir)WS2812B\src;$(IncludePath)</LibraryPath>
+    <SourcePath>$(SolutionDir)WS2812B\include;$(SolutionDir)WS2812B\src;$(IncludePath)</SourcePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <IncludePath>$(SolutionDir)WS2812B\include;$(SolutionDir)WS2812B\src;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)WS2812B\include;$(SolutionDir)WS2812B\src;$(IncludePath)</LibraryPath>
+    <SourcePath>$(SolutionDir)WS2812B\include;$(SolutionDir)WS2812B\src;$(IncludePath)</SourcePath>
+    <RemoteCCompileToolExe>gcc</RemoteCCompileToolExe>
+    <RemoteCompileLocalCopyObjectFiles>true</RemoteCompileLocalCopyObjectFiles>
+    <RemoteCppCompileToolExe>gcc</RemoteCppCompileToolExe>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <Link>
+      <LibraryDependencies>wiringPi;pthread</LibraryDependencies>
+    </Link>
+    <RemotePostBuildEvent>
+      <Command>gpio export 18 out</Command>
+      <Message>使用 gpio 实用程序导出 pin 17，以便可以在不使用 sudo 的情况下执行 blink 程序</Message>
+    </RemotePostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <Link>
+      <LibraryDependencies>wiringPi;pthread</LibraryDependencies>
+      <AdditionalLibraryDirectories>/home/pi/projects/Socket/bin/ARM/Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>/home/pi/projects/Socket/bin/ARM/Release/libSocket.a;$(StlAdditionalDependencies);%(Link.AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <RemotePostBuildEvent>
+      <Command>
+      </Command>
+      <Message>
+      </Message>
+    </RemotePostBuildEvent>
+    <ClCompile>
+      <CompileAs>CompileAsC</CompileAs>
+      <CppLanguageStandard>c++14</CppLanguageStandard>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <ClCompile>
+      <CompileAs>CompileAsC</CompileAs>
+      <CLanguageStandard>c11</CLanguageStandard>
+      <CppLanguageStandard>c++14</CppLanguageStandard>
+      <AdditionalIncludeDirectories>/home/pi/projects/WS2812B/bin/ARM/Debug;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>/home/pi/projects/Socket/bin/ARM/Debug/libSocket.a;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>
