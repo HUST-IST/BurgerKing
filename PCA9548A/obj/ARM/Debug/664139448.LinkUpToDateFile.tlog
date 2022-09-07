@@ -1,0 +1,1 @@
+ar -rsc  "/home/pi/projects/PCA9548A/bin/ARM/Debug/libPCA9548A.a" /home/pi/projects/PCA9548A/obj/ARM/Debug/rpi_tca9548a.o

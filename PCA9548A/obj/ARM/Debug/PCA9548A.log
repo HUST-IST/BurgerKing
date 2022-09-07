@@ -1,0 +1,11 @@
+﻿  正在清理远程项目目录
+  正在验证源
+  正在将源远程复制到“192.168.178.22”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  rpi_tca9548a.cpp
+  正在存档对象
+  PCA9548A.vcxproj -> D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\PCA9548A\bin\ARM\Debug\libPCA9548A.a
+  正在调用“gpio export 17 out”，工作目录:“/home/pi/projects/PCA9548A/”
