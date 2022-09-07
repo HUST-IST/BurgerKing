@@ -1,0 +1,154 @@
+﻿  正在清理远程项目目录
+  正在验证源
+  正在将源远程复制到“192.168.178.22”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  smbus.c
+  VL53L1X_api.c
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(221,76): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(221,76): warning :   status = VL53L1_WrByte(dev, VL53L1_I2C_SLAVE__DEVICE_ADDRESS, new_address >> 1);
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(221,76): warning :                                                                 ~~~~~~~~~~~~^~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(260,54): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(260,54): warning :   status = VL53L1_WrByte(dev, GPIO_HV_MUX__CTRL, Temp | (!(NewPolarity & 1)) << 4);
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(260,54): warning :                                                  ~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(588,15): warning : conversion from ‘int’ to ‘uint16_t’ {aka ‘short unsigned int’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(588,15): warning :   *signal = tmp*8;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(588,15): warning :             ~~~^~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(599,14): warning : conversion from ‘int’ to ‘uint16_t’ {aka ‘short unsigned int’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(599,14): warning :   *spNb = tmp >> 8;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(599,14): warning :           ~~~~^~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(609,16): warning : conversion from ‘int’ to ‘uint16_t’ {aka ‘short unsigned int’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(609,16): warning :   *ambRate = tmp*8;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(609,16): warning :              ~~~^~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(637,46): warning : conversion from ‘int’ to ‘uint16_t’ {aka ‘short unsigned int’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(637,46): warning :   pResult->Ambient = (Temp[7] << 8 | Temp[8]) * 8;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(637,46): warning :                      ~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(639,51): warning : conversion from ‘int’ to ‘uint16_t’ {aka ‘short unsigned int’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(639,51): warning :   pResult->SigPerSPAD = (Temp[15] << 8 | Temp[16]) * 8;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(639,51): warning :                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(640,36): warning : conversion from ‘int’ to ‘uint16_t’ {aka ‘short unsigned int’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(640,36): warning :   pResult->Distance = Temp[13] << 8 | Temp[14];
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(640,36): warning :                       ~~~~~~~~~~~~~~^~~~~~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(650,21): warning : conversion from ‘int’ to ‘int16_t’ {aka ‘short int’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(650,21): warning :   Temp = (OffsetValue*4);
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(650,21): warning :          ~~~~~~~~~~~~^~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(664,13): warning : conversion from ‘int’ to ‘uint16_t’ {aka ‘short unsigned int’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(664,13): warning :   Temp = Temp<<3;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(664,13): warning :          ~~~~^~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(665,13): warning : conversion from ‘int’ to ‘uint16_t’ {aka ‘short unsigned int’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(665,13): warning :   Temp = Temp>>5;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(665,13): warning :          ~~~~^~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(681,19): warning : conversion from ‘int’ to ‘uint16_t’ {aka ‘short unsigned int’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(681,19): warning :     (XtalkValue<<9)/1000); /* * << 9 (7.9 format) and /1000 to convert cps to kpcs */
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(681,19): warning :     ~~~~~~~~~~~~~~~^~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(691,31): warning : conversion from ‘int’ to ‘uint16_t’ {aka ‘short unsigned int’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(691,31): warning :   *xtalk = (uint16_t)(tmp*1000)>>9; /* * 1000 to convert kcps to cps and >> 9 (7.9 format) */
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(691,31): warning :            ~~~~~~~~~~~~~~~~~~~~^~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(776,23): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(776,23): warning :           (Y - 1) << 4 | (X - 1));
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(776,23): warning :           ~~~~~~~~~~~~~^~~~~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(786,34): warning : conversion from ‘int’ to ‘uint16_t’ {aka ‘short unsigned int’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(786,34): warning :   *ROI_X = ((uint16_t)tmp & 0x0F) + 1;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(786,34): warning :            ~~~~~~~~~~~~~~~~~~~~~~~^~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(787,41): warning : conversion from ‘int’ to ‘uint16_t’ {aka ‘short unsigned int’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(787,41): warning :   *ROI_Y = (((uint16_t)tmp & 0xF0) >> 4) + 1;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(787,41): warning :            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(795,70): warning : conversion from ‘int’ to ‘uint16_t’ {aka ‘short unsigned int’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(795,70): warning :   VL53L1_WrWord(dev,RANGE_CONFIG__MIN_COUNT_RATE_RTN_LIMIT_MCPS,Signal>>3);
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(795,70): warning :                                                                 ~~~~~~^~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(806,16): warning : conversion from ‘int’ to ‘uint16_t’ {aka ‘short unsigned int’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(806,16): warning :   *signal = tmp <<3;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(806,16): warning :             ~~~~^~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(818,61): warning : conversion from ‘int’ to ‘uint16_t’ {aka ‘short unsigned int’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(818,61): warning :   status = VL53L1_WrWord(dev,RANGE_CONFIG__SIGMA_THRESH,Sigma<<2);
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(818,61): warning :                                                         ~~~~~^~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(828,15): warning : conversion from ‘int’ to ‘uint16_t’ {aka ‘short unsigned int’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(828,15): warning :   *sigma = tmp >> 2;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_api.c(828,15): warning :            ~~~~^~~~
+  VL53L1X_calibration.c
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_calibration.c(91,37): warning : conversion from ‘int’ to ‘int16_t’ {aka ‘short int’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_calibration.c(91,37): warning :    AverageDistance = AverageDistance + distance;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_calibration.c(91,37): warning :                      ~~~~~~~~~~~~~~~~^~~~~~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_calibration.c(95,27): warning : conversion from ‘int’ to ‘int16_t’ {aka ‘short int’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_calibration.c(95,27): warning :   *offset = TargetDistInMm - AverageDistance;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_calibration.c(95,27): warning :             ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_calibration.c(96,73): warning : conversion from ‘int’ to ‘uint16_t’ {aka ‘short unsigned int’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_calibration.c(96,73): warning :   status = VL53L1_WrWord(dev, ALGO__PART_TO_PART_RANGE_OFFSET_MM, *offset*4);
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_calibration.c(96,73): warning :                                                                   ~~~~~~~^~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_calibration.c(133,36): warning : conversion from ‘int’ to ‘uint16_t’ {aka ‘short unsigned int’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_calibration.c(133,36): warning :   *xtalk = (uint16_t)(calXtalk*1000)>>9;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_calibration.c(133,36): warning :            ~~~~~~~~~~~~~~~~~~~~~~~~~^~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_calibration.c(134,38): warning : conversion from ‘uint32_t’ {aka ‘unsigned int’} to ‘uint16_t’ {aka ‘short unsigned int’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_calibration.c(134,38): warning :   status = VL53L1_WrWord(dev, 0x0016, calXtalk);
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\VL53L1X_calibration.c(134,38): warning :                                       ^~~~~~~~
+  vl53l1_platform.c
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(65,28): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(65,28): warning :      data[0] = (index >> 8) & 0xff;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(65,28): warning :                ~~~~~~~~~~~~~^~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(66,21): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(66,21): warning :      data[1] = index & 0xff;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(66,21): warning :                ~~~~~~^~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(71,21): warning : conversion from ‘uint32_t’ {aka ‘unsigned int’} to ‘__u16’ {aka ‘short unsigned int’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(71,21): warning :      msgs[0].len = 2 + count;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(71,21): warning :                    ~~^~~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(88,28): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(88,28): warning :      data[0] = (index >> 8) & 0xff;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(88,28): warning :                ~~~~~~~~~~~~~^~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(89,21): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(89,21): warning :      data[1] = index & 0xff;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(89,21): warning :                ~~~~~~^~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(98,19): warning : conversion from ‘uint32_t’ {aka ‘unsigned int’} to ‘__u16’ {aka ‘short unsigned int’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(98,19): warning :      msgs[1].len = count;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(98,19): warning :                    ^~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(114,34): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(114,34): warning :      local_data[0] = (index >> 8) & 0xff;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(114,34): warning :                      ~~~~~~~~~~~~~^~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(115,27): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(115,27): warning :      local_data[1] = index & 0xff;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(115,27): warning :                      ~~~~~~^~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(136,34): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(136,34): warning :      local_data[0] = (index >> 8) & 0xff;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(136,34): warning :                      ~~~~~~~~~~~~~^~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(137,27): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(137,27): warning :      local_data[1] = index & 0xff;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(137,27): warning :                      ~~~~~~^~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(138,33): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(138,33): warning :      local_data[2] = (data >> 8) & 0xff;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(138,33): warning :                      ~~~~~~~~~~~~^~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(139,23): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(139,23): warning :   local_data[3] = data & 0xff;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(139,23): warning :                   ~~~~~^~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(159,34): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(159,34): warning :      local_data[0] = (index >> 8) & 0xff;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(159,34): warning :                      ~~~~~~~~~~~~~^~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(160,27): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(160,27): warning :      local_data[1] = index & 0xff;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(160,27): warning :                      ~~~~~~^~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(161,34): warning : conversion from ‘uint32_t’ {aka ‘unsigned int’} to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(161,34): warning :      local_data[2] = (data >> 24) & 0xff;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(161,34): warning :                      ~~~~~~~~~~~~~^~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(184,34): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(184,34): warning :      data_local[0] = (index >> 8) & 0xff;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(184,34): warning :                      ~~~~~~~~~~~~~^~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(185,27): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(185,27): warning :      data_local[1] = index & 0xff;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(185,27): warning :                      ~~~~~~^~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(210,34): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(210,34): warning :      data_local[0] = (index >> 8) & 0xff;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(210,34): warning :                      ~~~~~~~~~~~~~^~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(211,27): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(211,27): warning :      data_local[1] = index & 0xff;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(211,27): warning :                      ~~~~~~^~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(229,40): warning : conversion from ‘int’ to ‘uint16_t’ {aka ‘short unsigned int’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(229,40): warning :      *data = ((uint16_t)data_out[0]<<8) + (uint16_t)data_out[1];
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(229,40): warning :              ~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(238,34): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(238,34): warning :      data_local[0] = (index >> 8) & 0xff;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(238,34): warning :                      ~~~~~~~~~~~~~^~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(239,27): warning : conversion from ‘int’ to ‘uint8_t’ {aka ‘unsigned char’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(239,27): warning :      data_local[1] = index & 0xff;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\vl53l1_platform.c(239,27): warning :                      ~~~~~~^~~~~~
+  正在存档对象
+  VL53L1X_dev.vcxproj -> D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\VL53L1X_dev\bin\ARM\Debug\libVL53L1X_dev.a

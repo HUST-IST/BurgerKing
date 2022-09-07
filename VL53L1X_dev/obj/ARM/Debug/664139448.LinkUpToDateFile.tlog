@@ -1,0 +1,1 @@
+ar -rsc  "/home/pi/projects/VL53L1X_dev/bin/ARM/Debug/libVL53L1X_dev.a" /home/pi/projects/VL53L1X_dev/obj/ARM/Debug/smbus.o /home/pi/projects/VL53L1X_dev/obj/ARM/Debug/VL53L1X_api.o /home/pi/projects/VL53L1X_dev/obj/ARM/Debug/VL53L1X_calibration.o /home/pi/projects/VL53L1X_dev/obj/ARM/Debug/vl53l1_platform.o

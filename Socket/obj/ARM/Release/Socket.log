@@ -1,0 +1,14 @@
+﻿  正在清理远程项目目录
+  正在验证源
+  正在将源远程复制到“192.168.43.195”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  Socket.cpp
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\Socket\Socket.cpp(26,34): warning : converting to non-pointer type ‘char’ from NULL [-Wconversion-null]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\Socket\Socket.cpp(26,34): warning :  char send_buf[3] = { 1,NULL, NULL};              //"发送"寄存器
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\Socket\Socket.cpp(26,34): warning :                                   ^
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\Socket\Socket.cpp(26,34): warning : converting to non-pointer type ‘char’ from NULL [-Wconversion-null]
+  正在存档对象
+  Socket.vcxproj -> C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\Socket\bin\ARM\Release\libSocket.a

@@ -1,0 +1,1 @@
+ar -rsc  "/home/pi/projects/SharedMemory/bin/ARM/Debug/libSharedMemory.a" "/home/pi/projects/SharedMemory/obj/ARM/Debug/share-memory-set.o"

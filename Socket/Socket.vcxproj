@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM64">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM64">
+      <Configuration>Release</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6637d69d-625f-439e-ae04-6e1c87b0b3f0}</ProjectGuid>
+    <Keyword>Linux</Keyword>
+    <RootNamespace>Socket</RootNamespace>
+    <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
+    <ApplicationType>Linux</ApplicationType>
+    <ApplicationTypeRevision>1.0</ApplicationTypeRevision>
+    <TargetLinuxPlatform>Raspberry</TargetLinuxPlatform>
+    <LinuxProjectType>{8748239F-558C-44D1-944B-07B09C35B330}</LinuxProjectType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfStl>libstdc++_shared</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfStl>libstdc++_static</UseOfStl>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <IncludePath>/home/pi/projects/WS2812B/src;/home/pi/projects/WS2812B/include;/home/pi/projects/WS2812B/bin/ARM/Debug;D:\学校文件\HiWi\树莓派\Linux系统的程序备份\14_05.05.2021-使用socket与UR5通信\Socket;D:\学校文件\HiWi\树莓派\Linux系统的程序备份\14_05.05.2021-使用socket与UR5通信\WS2812B\include;D:\学校文件\HiWi\树莓派\Linux系统的程序备份\14_05.05.2021-使用socket与UR5通信\WS2812B\src;$(IncludePath)</IncludePath>
+    <LibraryPath>/home/pi/projects/WS2812B/src;/home/pi/projects/WS2812B/include;/home/pi/projects/WS2812B/bin/ARM/Debug;D:\学校文件\HiWi\树莓派\Linux系统的程序备份\14_05.05.2021-使用socket与UR5通信\Socket;D:\学校文件\HiWi\树莓派\Linux系统的程序备份\14_05.05.2021-使用socket与UR5通信\WS2812B\include;D:\学校文件\HiWi\树莓派\Linux系统的程序备份\14_05.05.2021-使用socket与UR5通信\WS2812B\src;D:\学校文件\HiWi\树莓派\Linux系统的程序备份\14_05.05.2021-使用socket与UR5通信\WS2812B\bin\ARM\Debug;$(IncludePath);$(LibraryPath)</LibraryPath>
+    <SourcePath>/home/pi/projects/WS2812B/src;/home/pi/projects/WS2812B/include;/home/pi/projects/WS2812B/bin/ARM/Debug;D:\学校文件\HiWi\树莓派\Linux系统的程序备份\14_05.05.2021-使用socket与UR5通信\Socket;D:\学校文件\HiWi\树莓派\Linux系统的程序备份\14_05.05.2021-使用socket与UR5通信\WS2812B\include;D:\学校文件\HiWi\树莓派\Linux系统的程序备份\14_05.05.2021-使用socket与UR5通信\WS2812B\src;$(IncludePath)</SourcePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <IncludePath>$(SolutionDir)Socket;$(SolutionDir)WS2812B\bin\ARM\Release;$(SolutionDir)WS2812B\include;$(SolutionDir)WS2812B\src;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)Socket;$(SolutionDir)WS2812B\bin\ARM\Release;$(SolutionDir)WS2812B\include;$(SolutionDir)WS2812B\src;$(IncludePath)</LibraryPath>
+    <SourcePath>$(SolutionDir)Socket;$(SolutionDir)WS2812B\bin\ARM\Release;$(SolutionDir)WS2812B\include;$(SolutionDir)WS2812B\src;$(IncludePath)</SourcePath>
+    <RemoteCCompileToolExe>gcc</RemoteCCompileToolExe>
+    <RemoteCppCompileToolExe>gcc</RemoteCppCompileToolExe>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <Link>
+      <LibraryDependencies>wiringPi;pthread</LibraryDependencies>
+    </Link>
+    <RemotePostBuildEvent>
+      <Command>gpio export 17 out</Command>
+      <Message>使用 gpio 实用程序导出 pin 17，以便可以在不使用 sudo 的情况下执行 blink 程序</Message>
+    </RemotePostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <Link>
+      <LibraryDependencies>wiringPi;pthread</LibraryDependencies>
+      <AdditionalDependencies>/home/pi/projects/WS2812B/bin/ARM/Release/libWS2812B.a</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\学校文件\HiWi\树莓派\Linux系统的程序备份\14_05.05.2021-使用socket与UR5通信\WS2812B\bin\ARM\Release</AdditionalLibraryDirectories>
+    </Link>
+    <RemotePostBuildEvent>
+      <Command>
+      </Command>
+      <Message>
+      </Message>
+    </RemotePostBuildEvent>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <CompileAs>CompileAsCpp</CompileAs>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Socket.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Socket.h" />
+  </ItemGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <ClCompile>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <AdditionalIncludeDirectories>/home/pi/projects/WS2812B/bin/ARM/Debug/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>/home/pi/projects/WS2812B/bin/ARM/Debug/libWS2812B.a</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

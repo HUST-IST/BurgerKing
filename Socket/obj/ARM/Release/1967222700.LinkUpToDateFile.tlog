@@ -1,0 +1,1 @@
+ar -rsc  "/home/pi/projects/Socket/bin/ARM/Release/libSocket.a" /home/pi/projects/Socket/obj/ARM/Release/Socket.o

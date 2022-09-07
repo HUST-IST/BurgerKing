@@ -1,0 +1,17 @@
+﻿  正在清理远程项目目录
+  正在验证源
+  正在将源远程复制到“192.168.178.22”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  Socket.cpp
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\Socket\Socket.cpp(114,33): warning : argument to ‘sizeof’ in ‘char* strncpy(char*, const char*, size_t)’ call is the same expression as the source; did you mean to use the size of the destination? [-Wsizeof-pointer-memaccess]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\Socket\Socket.cpp(114,33): warning :          strncpy(send_buf, "-2", sizeof("-2"));
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\Socket\Socket.cpp(114,33): warning :                                  ^~~~~~~~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\Socket\Socket.cpp(188,45): warning : argument to ‘sizeof’ in ‘char* strncpy(char*, const char*, size_t)’ call is the same expression as the source; did you mean to use the size of the destination? [-Wsizeof-pointer-memaccess]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\Socket\Socket.cpp(188,45): warning :                      strncpy(send_buf, "-2", sizeof("-2"));
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\Socket\Socket.cpp(188,45): warning :                                              ^~~~~~~~~~~~
+  正在存档对象
+  Socket.vcxproj -> D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\Socket\bin\ARM\Debug\libSocket.a
+  正在调用“gpio export 17 out”，工作目录:“/home/pi/projects/Socket/”
