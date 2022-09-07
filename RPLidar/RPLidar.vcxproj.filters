@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{ce13b2cf-1510-41a8-9479-cde8d39cbfd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{69a45ac2-9204-4b38-b5c1-476c7afe7c8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\arch">
+      <UniqueIdentifier>{8fa0af2d-1362-42e1-afb7-fc85ff97181c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\hal">
+      <UniqueIdentifier>{b7ee89b6-858c-4076-9596-82a688bd16dc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\hal\abs_rxtx.h">
+      <Filter>src\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hal\assert.h">
+      <Filter>src\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hal\byteops.h">
+      <Filter>src\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hal\event.h">
+      <Filter>src\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hal\locker.h">
+      <Filter>src\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hal\socket.h">
+      <Filter>src\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hal\thread.h">
+      <Filter>src\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hal\types.h">
+      <Filter>src\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\hal\util.h">
+      <Filter>src\hal</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\linux\arch_linux.h">
+      <Filter>src\arch</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\linux\net_serial.h">
+      <Filter>src\arch</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\linux\thread.hpp">
+      <Filter>src\arch</Filter>
+    </ClInclude>
+    <ClInclude Include="src\arch\linux\timer.h">
+      <Filter>src\arch</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rplidar.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rplidar_cmd.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rplidar_driver.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rplidar_protocol.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\rptypes.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rplidar_driver_impl.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rplidar_driver_serial.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rplidar_driver_TCP.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sdkcommon.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\hal\thread.cpp">
+      <Filter>src\hal</Filter>
+    </ClCompile>
+    <ClCompile Include="src\arch\linux\net_serial.cpp">
+      <Filter>src\arch</Filter>
+    </ClCompile>
+    <ClCompile Include="src\arch\linux\net_socket.cpp">
+      <Filter>src\arch</Filter>
+    </ClCompile>
+    <ClCompile Include="src\arch\linux\timer.cpp">
+      <Filter>src\arch</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rplidar_driver.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

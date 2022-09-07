@@ -1,0 +1,128 @@
+﻿  正在清理远程项目目录
+  正在验证源
+  正在将源远程复制到“192.168.178.22”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  net_serial.cpp
+  net_socket.cpp
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\arch\linux\net_socket.cpp(438,17): warning : comparison of integer expressions of different signedness: ‘size_t’ {aka ‘unsigned int’} and ‘int’ [-Wsign-compare]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\arch\linux\net_socket.cpp(438,17): warning :          if (ans == (int)len) {
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\arch\linux\net_socket.cpp(438,17): warning :              ~~~~^~~~~~~~~~~
+  timer.cpp
+  thread.cpp
+  rplidar_driver.cpp
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\hal\event.h(127,67): warning : conversion from ‘long long unsigned int’ to ‘__syscall_slong_t’ {aka ‘long int’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\hal\event.h(127,67): warning :                      wait_time.tv_nsec = (timeout%1000)*1000000ULL + now.tv_usec*1000;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\hal\event.h(127,67): warning :                                          ~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(71,96): warning : conversion from ‘int’ to ‘_u16’ {aka ‘short unsigned int’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(71,96): warning :      to.angle_z_q14 = (((from.angle_q6_checkbit) >> RPLIDAR_RESP_MEASUREMENT_ANGLE_SHIFT) << 8) / 90;  //transfer to q14 Z-angle
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(71,96): warning :                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(74,80): warning : conversion from ‘int’ to ‘_u8’ {aka ‘unsigned char’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(74,80): warning :      to.quality = (from.sync_quality >> RPLIDAR_RESP_MEASUREMENT_QUALITY_SHIFT) << RPLIDAR_RESP_MEASUREMENT_QUALITY_SHIFT;  //remove the last two bits and then make quality from 0-63 to 0-255
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(79,70): warning : conversion from ‘int’ to ‘_u8’ {aka ‘unsigned char’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(79,70): warning :      to.sync_quality = (from.flag & RPLIDAR_RESP_MEASUREMENT_SYNCBIT) | ((from.quality >> RPLIDAR_RESP_MEASUREMENT_QUALITY_SHIFT) << RPLIDAR_RESP_MEASUREMENT_QUALITY_SHIFT);
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(79,70): warning :                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(80,30): warning : conversion from ‘int’ to ‘_u16’ {aka ‘short unsigned int’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(80,30): warning :      to.angle_q6_checkbit = 1 | (((from.angle_z_q14 * 90) >> 8) << RPLIDAR_RESP_MEASUREMENT_ANGLE_SHIFT);
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(80,30): warning :                             ~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(286,35): warning : conversion from ‘size_t’ {aka ‘unsigned int’} to ‘float’ may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(286,35): warning :      frequency = 1000000.0f/(count * sample_duration);
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(286,35): warning :                             ~~~~~~~^~~~~~~~~~~~~~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(300,39): warning : conversion from ‘size_t’ {aka ‘unsigned int’} to ‘float’ may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(300,39): warning :      frequency = 1000000.0f / (count * sample_duration);
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(300,39): warning :                                        ^~~~~~~~~~~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(328,43): warning : conversion from ‘int’ to ‘_u8’ {aka ‘unsigned char’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(328,43): warning :                      _u8 tmp = (currentByte>>1);
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(328,43): warning :                                ~~~~~~~~~~~~^~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(414,43): warning : conversion from ‘int’ to ‘_u8’ {aka ‘unsigned char’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(414,43): warning :                      _u8 tmp = (currentByte>>4);
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(414,43): warning :                                ~~~~~~~~~~~~^~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(426,43): warning : conversion from ‘int’ to ‘_u8’ {aka ‘unsigned char’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(426,43): warning :                      _u8 tmp = (currentByte>>4);
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(426,43): warning :                                ~~~~~~~~~~~~^~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(441,63): warning : conversion from ‘int’ to ‘_u8’ {aka ‘unsigned char’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(441,63): warning :                  _u8 recvChecksum = ((node.s_checksum_1 & 0xF) | (node.s_checksum_2<<4));
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(441,63): warning :                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(497,43): warning : conversion from ‘int’ to ‘_u8’ {aka ‘unsigned char’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(497,43): warning :                      _u8 tmp = (currentByte>>4);
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(497,43): warning :                                ~~~~~~~~~~~~^~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(509,39): warning : conversion from ‘int’ to ‘_u8’ {aka ‘unsigned char’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(509,39): warning :                  _u8 tmp = (currentByte>>4);
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(509,39): warning :                            ~~~~~~~~~~~~^~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(525,63): warning : conversion from ‘int’ to ‘_u8’ {aka ‘unsigned char’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(525,63): warning :                  _u8 recvChecksum = ((node.s_checksum_1 & 0xF) | (node.s_checksum_2 << 4));
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(525,63): warning :                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(671,16): warning : variable ‘last_angleInc_q16’ set but not used [-Wunused-but-set-variable]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(671,16): warning :      static int last_angleInc_q16 = 0;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(671,16): warning :                 ^~~~~~~~~~~~~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(673,9): warning : unused variable ‘syncBit_check_threshold’ [-Wunused-variable]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(673,9): warning :      int syncBit_check_threshold = (int)((5 << 16) / angleInc_q16) + 1;//find syncBit in 0~3 degree
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(673,9): warning :          ^~~~~~~~~~~~~~~~~~~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(771,46): warning : unused variable ‘last_scan_count’ [-Wunused-variable]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(771,46): warning :      size_t                                   last_scan_count = 0;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(771,46): warning :                                               ^~~~~~~~~~~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(868,44): warning : conversion from ‘int’ to ‘_u8’ {aka ‘unsigned char’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(868,44): warning :                  node.flag = (syncBit[cpos] | ((!syncBit[cpos]) << 1));
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(868,44): warning :                              ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(850,17): warning : unused variable ‘syncBit_check_threshold’ [-Wunused-variable]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(850,17): warning :              int syncBit_check_threshold = (int)((2 << 16) / angleInc_q16) + 1;//find syncBit in 0~1 degree
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(850,17): warning :                  ^~~~~~~~~~~~~~~~~~~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(917,34): warning : conversion from ‘int’ to ‘_u8’ {aka ‘unsigned char’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(917,34): warning :              node.flag = (syncBit | ((!syncBit) << 1));
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(917,34): warning :                          ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(1027,23): warning : suggest parentheses around ‘-’ in operand of ‘&’ [-Wparentheses]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(1027,23): warning :      _u8 leftBytes = 4 - len & 0x3;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(1027,23): warning :                      ~~^~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(1050,35): warning : conversion from ‘_u32’ {aka ‘unsigned int’} to ‘_u16’ {aka ‘short unsigned int’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(1050,35): warning :   return _crc32cal(0xFFFFFFFF, ptr,len);
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(1050,35): warning :                                    ^~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(1238,32): warning : comparison of integer expressions of different signedness: ‘int’ and ‘unsigned int’ [-Wsign-compare]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(1238,32): warning :              if ((dist_predict1 == 0xFFFFFE00) || (dist_predict1 == 0x1FF)) {
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(1238,32): warning :                   ~~~~~~~~~~~~~~^~~~~~~~~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(1246,32): warning : comparison of integer expressions of different signedness: ‘int’ and ‘unsigned int’ [-Wsign-compare]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(1246,32): warning :              if ((dist_predict2 == 0xFFFFFE00) || (dist_predict2 == 0x1FF)) {
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(1246,32): warning :                   ~~~~~~~~~~~~~~^~~~~~~~~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(1277,44): warning : conversion from ‘int’ to ‘_u8’ {aka ‘unsigned char’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(1277,44): warning :                  node.flag = (syncBit[cpos] | ((!syncBit[cpos]) << 1));
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(1277,44): warning :                              ~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(1256,21): warning : unused variable ‘syncBit_check_threshold’ [-Wunused-variable]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(1256,21): warning :                  int syncBit_check_threshold = (int)((3 << 16) / angleInc_q16)+1;//find syncBit in 0~1 degree
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(1256,21): warning :                      ^~~~~~~~~~~~~~~~~~~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(1744,33): warning : conversion from ‘_u32’ {aka ‘unsigned int’} to ‘_u16’ {aka ‘short unsigned int’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(1744,33): warning :          scanReq.working_flags = options;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(1744,33): warning :                                  ^~~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(1931,36): warning : conversion from ‘int’ to ‘float’ may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(1931,36): warning :      return (node.angle_q6_checkbit >> RPLIDAR_RESP_MEASUREMENT_ANGLE_SHIFT) / 64.f;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(1931,36): warning :             ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(1937,92): warning : conversion from ‘int’ to ‘_u16’ {aka ‘short unsigned int’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(1937,92): warning :      node.angle_q6_checkbit = (((_u16)(v * 64.0f)) << RPLIDAR_RESP_MEASUREMENT_ANGLE_SHIFT) | checkbit;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(1937,92): warning :                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(1947,24): warning : conversion from ‘_u32’ {aka ‘unsigned int’} to ‘_u16’ {aka ‘short unsigned int’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(1947,24): warning :      node.angle_z_q14 = _u32(v * 16384.f / 90.f);
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(1947,24): warning :                         ^~~~~~~~~~~~~~~~~~~~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(2054,18): warning : conversion from ‘size_t’ {aka ‘unsigned int’} to ‘_u8’ {aka ‘unsigned char’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(2054,18): warning :          checksum ^= (payloadsize & 0xFF);
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(2054,18): warning :          ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(2062,24): warning : conversion from ‘size_t’ {aka ‘unsigned int’} to ‘_u8’ {aka ‘unsigned char’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(2062,24): warning :          _u8 sizebyte = payloadsize;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(2062,24): warning :                         ^~~~~~~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(1969,35): warning : conversion from ‘size_t’ {aka ‘unsigned int’} to ‘float’ may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(1969,35): warning :      float inc_origin_angle = 360.f/count;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(1969,35): warning :                               ~~~~~^~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(2009,50): warning : conversion from ‘size_t’ {aka ‘unsigned int’} to ‘float’ may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(2009,50): warning :              float expect_angle =  frontAngle + i * inc_origin_angle;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(2009,50): warning :                                                 ~~^~~~~~~~~~~~~~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(1969,35): warning : conversion from ‘size_t’ {aka ‘unsigned int’} to ‘float’ may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(1969,35): warning :      float inc_origin_angle = 360.f/count;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(1969,35): warning :                               ~~~~~^~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(2009,50): warning : conversion from ‘size_t’ {aka ‘unsigned int’} to ‘float’ may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(2009,50): warning :              float expect_angle =  frontAngle + i * inc_origin_angle;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(2009,50): warning :                                                 ~~^~~~~~~~~~~~~~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(2225,1): warning : control reaches end of non-void function [-Wreturn-type]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(2225,1): warning :  }
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\src\rplidar_driver.cpp(2225,1): warning :  ^
+  正在存档对象
+  RPLidar.vcxproj -> D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\RPLidar\bin\ARM\Debug\libRPLidar.a
+  正在调用“gpio export 17 out”，工作目录:“/home/pi/projects/RPLidar/”

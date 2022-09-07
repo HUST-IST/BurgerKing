@@ -1,0 +1,1 @@
+ar -rsc  "/home/pi/projects/RPLidar/bin/ARM/Release/libRPLidar.a" /home/pi/projects/RPLidar/obj/ARM/Release/net_serial.o /home/pi/projects/RPLidar/obj/ARM/Release/net_socket.o /home/pi/projects/RPLidar/obj/ARM/Release/timer.o /home/pi/projects/RPLidar/obj/ARM/Release/thread.o /home/pi/projects/RPLidar/obj/ARM/Release/rplidar_driver.o
