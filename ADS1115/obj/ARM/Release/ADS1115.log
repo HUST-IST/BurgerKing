@@ -1,0 +1,49 @@
+﻿  正在清理远程项目目录
+  正在验证源
+  正在将源远程复制到“192.168.43.195”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  ads1115rpi.c
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\ADS1115\ads1115rpi.c(12,3): warning : conversion from ‘double’ to ‘float’ changes value from ‘6.1440000000000001e+0’ to ‘6.14400005e+0f’ [-Wfloat-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\ADS1115\ads1115rpi.c(12,3): warning :    6.144,
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\ADS1115\ads1115rpi.c(12,3): warning :    ^~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\ADS1115\ads1115rpi.c(13,3): warning : conversion from ‘double’ to ‘float’ changes value from ‘4.0960000000000001e+0’ to ‘4.09600019e+0f’ [-Wfloat-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\ADS1115\ads1115rpi.c(13,3): warning :    4.096,
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\ADS1115\ads1115rpi.c(13,3): warning :    ^~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\ADS1115\ads1115rpi.c(14,3): warning : conversion from ‘double’ to ‘float’ changes value from ‘2.048e+0’ to ‘2.0480001e+0f’ [-Wfloat-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\ADS1115\ads1115rpi.c(14,3): warning :    2.048,
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\ADS1115\ads1115rpi.c(14,3): warning :    ^~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\ADS1115\ads1115rpi.c(15,3): warning : conversion from ‘double’ to ‘float’ changes value from ‘1.024e+0’ to ‘1.02400005e+0f’ [-Wfloat-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\ADS1115\ads1115rpi.c(15,3): warning :    1.024,
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\ADS1115\ads1115rpi.c(15,3): warning :    ^~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\ADS1115\ads1115rpi.c(16,3): warning : conversion from ‘double’ to ‘float’ changes value from ‘5.1200000000000001e-1’ to ‘5.12000024e-1f’ [-Wfloat-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\ADS1115\ads1115rpi.c(16,3): warning :    0.512,
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\ADS1115\ads1115rpi.c(16,3): warning :    ^~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\ADS1115\ads1115rpi.c(17,3): warning : conversion from ‘double’ to ‘float’ changes value from ‘2.5600000000000001e-1’ to ‘2.56000012e-1f’ [-Wfloat-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\ADS1115\ads1115rpi.c(17,3): warning :    0.256,
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\ADS1115\ads1115rpi.c(17,3): warning :    ^~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\ADS1115\ads1115rpi.c(18,3): warning : conversion from ‘double’ to ‘float’ changes value from ‘2.5600000000000001e-1’ to ‘2.56000012e-1f’ [-Wfloat-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\ADS1115\ads1115rpi.c(18,3): warning :    0.256,
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\ADS1115\ads1115rpi.c(18,3): warning :    ^~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\ADS1115\ads1115rpi.c(19,3): warning : conversion from ‘double’ to ‘float’ changes value from ‘2.5600000000000001e-1’ to ‘2.56000012e-1f’ [-Wfloat-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\ADS1115\ads1115rpi.c(19,3): warning :    0.256
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\ADS1115\ads1115rpi.c(19,3): warning :    ^~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\ADS1115\ads1115rpi.c(43,23): warning : conversion from ‘int’ to ‘uint16_t’ {aka ‘short unsigned int’} may change value [-Wconversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\ADS1115\ads1115rpi.c(43,23): warning :      uint16_t config = getSingeShotSingleEndedConfig(pin, 0);
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\ADS1115\ads1115rpi.c(43,23): warning :                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\ADS1115\ads1115rpi.c(47,23): warning : conversion from ‘int’ to ‘__uint16_t’ {aka ‘short unsigned int’} may change value [-Wconversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\ADS1115\ads1115rpi.c(47,23): warning :      rslt = __bswap_16(wiringPiI2CReadReg16(handle, 0x01));
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\ADS1115\ads1115rpi.c(47,23): warning :                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\ADS1115\ads1115rpi.c(50,27): warning : conversion from ‘int’ to ‘__uint16_t’ {aka ‘short unsigned int’} may change value [-Wconversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\ADS1115\ads1115rpi.c(50,27): warning :          rslt = __bswap_16(wiringPiI2CReadReg16(handle, 0x01));
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\ADS1115\ads1115rpi.c(50,27): warning :                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\ADS1115\ads1115rpi.c(53,23): warning : conversion from ‘int’ to ‘__uint16_t’ {aka ‘short unsigned int’} may change value [-Wconversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\ADS1115\ads1115rpi.c(53,23): warning :      rslt = __bswap_16(wiringPiI2CReadReg16(handle, 0x00));
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\ADS1115\ads1115rpi.c(53,23): warning :                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\ADS1115\ads1115rpi.c(57,33): warning : conversion from ‘double’ to ‘float’ may change value [-Wfloat-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\ADS1115\ads1115rpi.c(57,33): warning :      return adsMaxGain[0] * rslt / 32767.0;
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\ADS1115\ads1115rpi.c(57,33): warning :             ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+  正在存档对象
+  ADS1115.vcxproj -> C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\ADS1115\bin\ARM\Release\libADS1115.a

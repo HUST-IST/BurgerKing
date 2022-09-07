@@ -1,0 +1,41 @@
+﻿  正在清理远程项目目录
+  正在验证源
+  正在将源远程复制到“192.168.178.22”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  main.cpp
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\MAIN\main.cpp(161,51): warning : conversion from ‘_u32’ {aka ‘unsigned int’} to ‘float’ may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\MAIN\main.cpp(161,51): warning :                  data[pos + 39] = (int)(nodes[pos].dist_mm_q2 / 4.0f) / 10;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\MAIN\main.cpp(161,51): warning :                                         ~~~~~~~~~~~^~~~~~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\MAIN\main.cpp(166,31): warning : comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘unsigned int’} [-Wsign-compare]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\MAIN\main.cpp(166,31): warning :              for (int i = 0; i < count; i++) temp_matrix[i] = data[39 + i];
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\MAIN\main.cpp(166,31): warning :                              ~~^~~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\MAIN\main.cpp(172,31): warning : comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘unsigned int’} [-Wsign-compare]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\MAIN\main.cpp(172,31): warning :              for (int i = 0; i < count; i++) data[39+i] = temp_matrix[i];
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\MAIN\main.cpp(172,31): warning :                              ~~^~~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\MAIN\main.cpp(191,23): warning : unused variable ‘version’ [-Wunused-variable]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\MAIN\main.cpp(191,23): warning :      VL53L1X_Version_t version;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\MAIN\main.cpp(191,23): warning :                        ^~~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\MAIN\main.cpp(192,18): warning : unused variable ‘dataReady’ [-Wunused-variable]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\MAIN\main.cpp(192,18): warning :      uint8_t ret, dataReady, rangeStatus1, rangeStatus2;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\MAIN\main.cpp(192,18): warning :                   ^~~~~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\MAIN\main.cpp(192,29): warning : unused variable ‘rangeStatus1’ [-Wunused-variable]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\MAIN\main.cpp(192,29): warning :      uint8_t ret, dataReady, rangeStatus1, rangeStatus2;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\MAIN\main.cpp(192,29): warning :                              ^~~~~~~~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\MAIN\main.cpp(192,43): warning : unused variable ‘rangeStatus2’ [-Wunused-variable]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\MAIN\main.cpp(192,43): warning :      uint8_t ret, dataReady, rangeStatus1, rangeStatus2;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\MAIN\main.cpp(192,43): warning :                                            ^~~~~~~~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\MAIN\main.cpp(195,14): warning : variable ‘ret1’ set but not used [-Wunused-but-set-variable]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\MAIN\main.cpp(195,14): warning :      uint32_t ret1, ret2;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\MAIN\main.cpp(195,14): warning :               ^~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\MAIN\main.cpp(195,20): warning : variable ‘ret2’ set but not used [-Wunused-but-set-variable]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\MAIN\main.cpp(195,20): warning :      uint32_t ret1, ret2;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\MAIN\main.cpp(195,20): warning :                     ^~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\MAIN\main.cpp(196,12): warning : variable ‘i2cfd’ set but not used [-Wunused-but-set-variable]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\MAIN\main.cpp(196,12): warning :      int i, i2cfd, MIC_old, MIC_different;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\MAIN\main.cpp(196,12): warning :             ^~~~~
+  正在链接对象
+  MAIN.vcxproj -> D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\MAIN\bin\ARM\Debug\MAIN.out
+  正在调用“gpio export 17 out”，工作目录:“/home/pi/projects/MAIN/”

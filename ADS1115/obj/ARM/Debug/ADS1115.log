@@ -1,0 +1,50 @@
+﻿  正在清理远程项目目录
+  正在验证源
+  正在将源远程复制到“192.168.178.22”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  ads1115rpi.c
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\ADS1115\ads1115rpi.c(13,3): warning : conversion from ‘double’ to ‘float’ changes value from ‘6.1440000000000001e+0’ to ‘6.14400005e+0f’ [-Wfloat-conversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\ADS1115\ads1115rpi.c(13,3): warning :    6.144,
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\ADS1115\ads1115rpi.c(13,3): warning :    ^~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\ADS1115\ads1115rpi.c(14,3): warning : conversion from ‘double’ to ‘float’ changes value from ‘4.0960000000000001e+0’ to ‘4.09600019e+0f’ [-Wfloat-conversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\ADS1115\ads1115rpi.c(14,3): warning :    4.096,
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\ADS1115\ads1115rpi.c(14,3): warning :    ^~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\ADS1115\ads1115rpi.c(15,3): warning : conversion from ‘double’ to ‘float’ changes value from ‘2.048e+0’ to ‘2.0480001e+0f’ [-Wfloat-conversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\ADS1115\ads1115rpi.c(15,3): warning :    2.048,
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\ADS1115\ads1115rpi.c(15,3): warning :    ^~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\ADS1115\ads1115rpi.c(16,3): warning : conversion from ‘double’ to ‘float’ changes value from ‘1.024e+0’ to ‘1.02400005e+0f’ [-Wfloat-conversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\ADS1115\ads1115rpi.c(16,3): warning :    1.024,
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\ADS1115\ads1115rpi.c(16,3): warning :    ^~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\ADS1115\ads1115rpi.c(17,3): warning : conversion from ‘double’ to ‘float’ changes value from ‘5.1200000000000001e-1’ to ‘5.12000024e-1f’ [-Wfloat-conversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\ADS1115\ads1115rpi.c(17,3): warning :    0.512,
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\ADS1115\ads1115rpi.c(17,3): warning :    ^~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\ADS1115\ads1115rpi.c(18,3): warning : conversion from ‘double’ to ‘float’ changes value from ‘2.5600000000000001e-1’ to ‘2.56000012e-1f’ [-Wfloat-conversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\ADS1115\ads1115rpi.c(18,3): warning :    0.256,
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\ADS1115\ads1115rpi.c(18,3): warning :    ^~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\ADS1115\ads1115rpi.c(19,3): warning : conversion from ‘double’ to ‘float’ changes value from ‘2.5600000000000001e-1’ to ‘2.56000012e-1f’ [-Wfloat-conversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\ADS1115\ads1115rpi.c(19,3): warning :    0.256,
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\ADS1115\ads1115rpi.c(19,3): warning :    ^~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\ADS1115\ads1115rpi.c(20,3): warning : conversion from ‘double’ to ‘float’ changes value from ‘2.5600000000000001e-1’ to ‘2.56000012e-1f’ [-Wfloat-conversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\ADS1115\ads1115rpi.c(20,3): warning :    0.256
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\ADS1115\ads1115rpi.c(20,3): warning :    ^~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\ADS1115\ads1115rpi.c(44,23): warning : conversion from ‘int’ to ‘uint16_t’ {aka ‘short unsigned int’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\ADS1115\ads1115rpi.c(44,23): warning :      uint16_t config = getSingeShotSingleEndedConfig(pin, 0);
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\ADS1115\ads1115rpi.c(44,23): warning :                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\ADS1115\ads1115rpi.c(48,23): warning : conversion from ‘int’ to ‘__uint16_t’ {aka ‘short unsigned int’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\ADS1115\ads1115rpi.c(48,23): warning :      rslt = __bswap_16(wiringPiI2CReadReg16(handle, 0x01));
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\ADS1115\ads1115rpi.c(48,23): warning :                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\ADS1115\ads1115rpi.c(51,27): warning : conversion from ‘int’ to ‘__uint16_t’ {aka ‘short unsigned int’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\ADS1115\ads1115rpi.c(51,27): warning :          rslt = __bswap_16(wiringPiI2CReadReg16(handle, 0x01));
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\ADS1115\ads1115rpi.c(51,27): warning :                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\ADS1115\ads1115rpi.c(54,23): warning : conversion from ‘int’ to ‘__uint16_t’ {aka ‘short unsigned int’} may change value [-Wconversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\ADS1115\ads1115rpi.c(54,23): warning :      rslt = __bswap_16(wiringPiI2CReadReg16(handle, 0x00));
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\ADS1115\ads1115rpi.c(54,23): warning :                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\ADS1115\ads1115rpi.c(58,33): warning : conversion from ‘double’ to ‘float’ may change value [-Wfloat-conversion]
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\ADS1115\ads1115rpi.c(58,33): warning :      return adsMaxGain[0] * rslt / 32767.0;
+D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\ADS1115\ads1115rpi.c(58,33): warning :             ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~
+  正在存档对象
+  ADS1115.vcxproj -> D:\学校文件\HiWi\树莓派\Linux系统的程序备份\25_05.06.2021-加入蜂鸣器\ADS1115\bin\ARM\Debug\libADS1115.a
+  正在调用“gpio export 17 out”，工作目录:“/home/pi/projects/ADS1115/”

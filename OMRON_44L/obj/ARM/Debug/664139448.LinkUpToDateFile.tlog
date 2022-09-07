@@ -1,0 +1,1 @@
+ar -rsc  "/home/pi/projects/OMRON_44L/bin/ARM/Debug/libOMRON_44L.a" /home/pi/projects/OMRON_44L/obj/ARM/Debug/D6T.o

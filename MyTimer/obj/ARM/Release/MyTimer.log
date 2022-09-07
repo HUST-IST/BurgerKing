@@ -1,0 +1,20 @@
+﻿  正在清理远程项目目录
+  正在验证源
+  正在将源远程复制到“192.168.43.195”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  MyTimer.c
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MyTimer\MyTimer.c(87,41): warning : conversion from ‘int’ to ‘char’ may change value [-Wconversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MyTimer\MyTimer.c(87,41): warning :   hapi_timer[timer_item].id = timer_item + 1;
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MyTimer\MyTimer.c(87,41): warning :                               ~~~~~~~~~~~^~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MyTimer\MyTimer.c(112,37): warning : argument to ‘sizeof’ in ‘void* memset(void*, int, size_t)’ call is the same expression as the destination; did you mean to remove the addressof? [-Wsizeof-pointer-memaccess]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MyTimer\MyTimer.c(112,37): warning :   memset(&hapi_timer[timer_item], 0, sizeof(&hapi_timer[timer_item]));
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MyTimer\MyTimer.c(112,37): warning :                                      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MyTimer\MyTimer.c(174,43): warning : argument to ‘sizeof’ in ‘void* memset(void*, int, size_t)’ call is the same expression as the destination; did you mean to remove the addressof? [-Wsizeof-pointer-memaccess]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MyTimer\MyTimer.c(174,43): warning :   memset(&hapi_timer[timer_item].value, 0, sizeof(&hapi_timer[timer_item].value));
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MyTimer\MyTimer.c(174,43): warning :                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  正在存档对象
+  MyTimer.vcxproj -> C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MyTimer\bin\ARM\Release\libMyTimer.a
+  正在调用“gpio export 17 out”，工作目录:“/home/pi/projects/MyTimer/”

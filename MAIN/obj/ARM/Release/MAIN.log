@@ -1,0 +1,68 @@
+﻿  正在清理远程项目目录
+  正在验证源
+  正在将源远程复制到“192.168.43.195”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  main.cpp
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(139,56): warning : conversion from ‘_u32’ {aka ‘unsigned int’} to ‘float’ may change value [-Wconversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(139,56): warning :                  else data[pos + 39] = (int)(nodes[pos].dist_mm_q2 / 4.0f) / 10;
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(139,56): warning :                                              ~~~~~~~~~~~^~~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(140,60): warning : conversion from ‘float’ to ‘int’ may change value [-Wfloat-conversion]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(140,60): warning :                  angle[pos] = nodes[pos].angle_z_q14 * 90.f / (1 << 14);
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(140,60): warning :                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(144,31): warning : comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘unsigned int’} [-Wsign-compare]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(144,31): warning :              for (int i = 0; i < count; i++) temp_matrix[i] = data[39 + i];
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(144,31): warning :                              ~~^~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(148,31): warning : comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘unsigned int’} [-Wsign-compare]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(148,31): warning :              for (int i = 0; i < count; i++) data[39+i] = temp_matrix[i];
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(148,31): warning :                              ~~^~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(152,35): warning : comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘unsigned int’} [-Wsign-compare]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(152,35): warning :                  for (int i = 0; i < count; i++)
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(152,35): warning :                                  ~~^~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(160,35): warning : comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘unsigned int’} [-Wsign-compare]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(160,35): warning :                  for (int i = 0; i < count; i++)
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(160,35): warning :                                  ~~^~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(172,35): warning : comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘unsigned int’} [-Wsign-compare]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(172,35): warning :                  for (int i = 0; i < count; i++)
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(172,35): warning :                                  ~~^~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(180,35): warning : comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘unsigned int’} [-Wsign-compare]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(180,35): warning :                  for (int i = 0; i < count; i++)
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(180,35): warning :                                  ~~^~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(196,31): warning : comparison of integer expressions of different signedness: ‘int’ and ‘size_t’ {aka ‘unsigned int’} [-Wsign-compare]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(196,31): warning :              for (int i = 0; i < count; i++)
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(196,31): warning :                              ~~^~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(67,9): warning : unused variable ‘RPLIDAR_Zahl’ [-Wunused-variable]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(67,9): warning :      int RPLIDAR_Zahl;
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(67,9): warning :          ^~~~~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(265,18): warning : unused variable ‘dataReady’ [-Wunused-variable]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(265,18): warning :      uint8_t ret, dataReady, rangeStatus1, rangeStatus2;
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(265,18): warning :                   ^~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(265,29): warning : unused variable ‘rangeStatus1’ [-Wunused-variable]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(265,29): warning :      uint8_t ret, dataReady, rangeStatus1, rangeStatus2;
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(265,29): warning :                              ^~~~~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(265,43): warning : unused variable ‘rangeStatus2’ [-Wunused-variable]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(265,43): warning :      uint8_t ret, dataReady, rangeStatus1, rangeStatus2;
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(265,43): warning :                                            ^~~~~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(267,14): warning : variable ‘ret1’ set but not used [-Wunused-but-set-variable]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(267,14): warning :      uint32_t ret1, ret2;
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(267,14): warning :               ^~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(267,20): warning : variable ‘ret2’ set but not used [-Wunused-but-set-variable]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(267,20): warning :      uint32_t ret1, ret2;
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(267,20): warning :                     ^~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(268,12): warning : variable ‘i2cfd’ set but not used [-Wunused-but-set-variable]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(268,12): warning :      int i, i2cfd, MIC_old, MIC_different;
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(268,12): warning :             ^~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(279,9): warning : unused variable ‘Initial_Difference_TOF’ [-Wunused-variable]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(279,9): warning :      int Initial_Difference_TOF = 0;
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(279,9): warning :          ^~~~~~~~~~~~~~~~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(280,9): warning : unused variable ‘distance’ [-Wunused-variable]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(280,9): warning :      int distance[4] = { 0 };
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(280,9): warning :          ^~~~~~~~
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(438,48): warning : passing NULL to non-pointer argument 2 of ‘void* memset(void*, int, size_t)’ [-Wconversion-null]
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(438,48): warning :          memset(send_buf, NULL, sizeof(send_buf));                 //从内存清空send_buf的元素的值。
+C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\main.cpp(438,48): warning :                                                 ^
+  正在链接对象
+  MAIN.vcxproj -> C:\Users\49266\Desktop\31_15.09.2021-加入异常值处理\MAIN\bin\ARM\Release\MAIN.out
+  正在调用“gpio export 40 out”，工作目录:“/home/pi/projects/MAIN/”

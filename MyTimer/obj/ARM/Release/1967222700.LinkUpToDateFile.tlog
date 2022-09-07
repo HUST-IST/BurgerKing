@@ -1,0 +1,1 @@
+ar -rsc  "/home/pi/projects/MyTimer/bin/ARM/Release/libMyTimer.a" /home/pi/projects/MyTimer/obj/ARM/Release/MyTimer.o

@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM64">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM64">
+      <Configuration>Release</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{a2911dfb-3ea2-4fea-87da-2609e2afe784}</ProjectGuid>
+    <Keyword>Linux</Keyword>
+    <RootNamespace>MAIN</RootNamespace>
+    <MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
+    <ApplicationType>Linux</ApplicationType>
+    <ApplicationTypeRevision>1.0</ApplicationTypeRevision>
+    <TargetLinuxPlatform>Raspberry</TargetLinuxPlatform>
+    <LinuxProjectType>{8748239F-558C-44D1-944B-07B09C35B330}</LinuxProjectType>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Label="Shared" />
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <IncludePath>$(SolutionDir)SharedMemory;$(SolutionDir)SharedMemory\bin\ARM\Release;$(SolutionDir)MAIN;$(SolutionDir)Socket\bin\ARM\Release;$(SolutionDir)Socket;$(SolutionDir)WS2812B\bin\ARM\Release;$(SolutionDir)WS2812B\include;$(SolutionDir)WS2812B\src;$(SolutionDir)VL53L1X;$(SolutionDir)VL53L1X\bin\ARM\Release;$(SolutionDir)PCA9548A\bin\ARM\Release;$(SolutionDir)PCA9548A;$(SolutionDir)ADS1115;$(SolutionDir)ADS1115\bin\ARM\Release;$(SolutionDir)VL53L1X_dev\bin\ARM\Release;$(SolutionDir)VL53L1X_dev;$(SolutionDir)OMRON_44L\bin\ARM\Release;$(SolutionDir)OMRON_44L;$(SolutionDir)RPLidar;$(SolutionDir)RPLidar\src\arch\linux;$(SolutionDir)RPLidar\src;$(SolutionDir)RPLidar\include;$(SolutionDir)RPLidar\src\hal;$(SolutionDir)MyTimer;$(SolutionDir)MyTimer\bin\ARM\Release;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)SharedMemory;$(SolutionDir)SharedMemory\bin\ARM\Release;$(SolutionDir)MAIN;$(SolutionDir)Socket\bin\ARM\Release;$(SolutionDir)Socket;$(SolutionDir)WS2812B\bin\ARM\Release;$(SolutionDir)WS2812B\include;$(SolutionDir)WS2812B\src;$(SolutionDir)VL53L1X;$(SolutionDir)VL53L1X\bin\ARM\Release;$(SolutionDir)PCA9548A\bin\ARM\Release;$(SolutionDir)PCA9548A;$(SolutionDir)ADS1115;$(SolutionDir)ADS1115\bin\ARM\Release;$(SolutionDir)VL53L1X_dev\bin\ARM\Release;$(SolutionDir)VL53L1X_dev;$(SolutionDir)OMRON_44L\bin\ARM\Release;$(SolutionDir)OMRON_44L;$(SolutionDir)RPLidar;$(SolutionDir)RPLidar\src\arch\linux;$(SolutionDir)RPLidar\src;$(SolutionDir)RPLidar\include;$(SolutionDir)RPLidar\src\hal;$(SolutionDir)MyTimer;$(SolutionDir)MyTimer\bin\ARM\Release;$(IncludePath)</LibraryPath>
+    <SourcePath>$(SolutionDir)SharedMemory;$(SolutionDir)SharedMemory\bin\ARM\Release;$(SolutionDir)MAIN;$(SolutionDir)Socket\bin\ARM\Release;$(SolutionDir)Socket;$(SolutionDir)WS2812B\bin\ARM\Release;$(SolutionDir)WS2812B\include;$(SolutionDir)WS2812B\src;$(SolutionDir)VL53L1X;$(SolutionDir)VL53L1X\bin\ARM\Release;$(SolutionDir)PCA9548A\bin\ARM\Release;$(SolutionDir)PCA9548A;$(SolutionDir)ADS1115;$(SolutionDir)ADS1115\bin\ARM\Release;$(SolutionDir)VL53L1X_dev\bin\ARM\Release;$(SolutionDir)VL53L1X_dev;$(SolutionDir)OMRON_44L\bin\ARM\Release;$(SolutionDir)OMRON_44L;$(SolutionDir)RPLidar;$(SolutionDir)RPLidar\src\arch\linux;$(SolutionDir)RPLidar\src;$(SolutionDir)RPLidar\include;$(SolutionDir)RPLidar\src\hal;$(SolutionDir)MyTimer;$(SolutionDir)MyTimer\bin\ARM\Release;$(IncludePath)</SourcePath>
+    <RemoteCCompileToolExe>gcc</RemoteCCompileToolExe>
+    <RemoteCppCompileToolExe>gcc</RemoteCppCompileToolExe>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <IncludePath>$(SolutionDir)SharedMemory;$(SolutionDir)SharedMemory\bin\ARM\Release;$(SolutionDir)MAIN;$(SolutionDir)Socket\bin\ARM\Release;$(SolutionDir)Socket;$(SolutionDir)WS2812B\bin\ARM\Release;$(SolutionDir)WS2812B\include;$(SolutionDir)WS2812B\src;$(SolutionDir)VL53L1X;$(SolutionDir)VL53L1X\bin\ARM\Release;$(SolutionDir)PCA9548A\bin\ARM\Release;$(SolutionDir)PCA9548A;$(SolutionDir)ADS1115;$(SolutionDir)ADS1115\bin\ARM\Release;$(SolutionDir)VL53L1X_dev\bin\ARM\Release;$(SolutionDir)VL53L1X_dev;$(SolutionDir)OMRON_44L\bin\ARM\Release;$(SolutionDir)OMRON_44L;$(SolutionDir)RPLidar;$(SolutionDir)RPLidar\src\arch\linux;$(SolutionDir)RPLidar\src;$(SolutionDir)RPLidar\include;$(SolutionDir)RPLidar\src\hal;$(IncludePath)</IncludePath>
+    <LibraryPath>$(SolutionDir)SharedMemory;$(SolutionDir)SharedMemory\bin\ARM\Release;$(SolutionDir)MAIN;$(SolutionDir)Socket\bin\ARM\Release;$(SolutionDir)Socket;$(SolutionDir)WS2812B\bin\ARM\Release;$(SolutionDir)WS2812B\include;$(SolutionDir)WS2812B\src;$(SolutionDir)VL53L1X;$(SolutionDir)VL53L1X\bin\ARM\Release;$(SolutionDir)PCA9548A\bin\ARM\Release;$(SolutionDir)PCA9548A;$(SolutionDir)ADS1115;$(SolutionDir)ADS1115\bin\ARM\Release;$(SolutionDir)VL53L1X_dev\bin\ARM\Release;$(SolutionDir)VL53L1X_dev;$(SolutionDir)OMRON_44L\bin\ARM\Release;$(SolutionDir)OMRON_44L;$(SolutionDir)RPLidar;$(SolutionDir)RPLidar\src\arch\linux;$(SolutionDir)RPLidar\src;$(SolutionDir)RPLidar\include;$(SolutionDir)RPLidar\src\hal;$(IncludePath)</LibraryPath>
+    <SourcePath>$(SolutionDir)SharedMemory;$(SolutionDir)SharedMemory\bin\ARM\Release;$(SolutionDir)MAIN;$(SolutionDir)Socket\bin\ARM\Release;$(SolutionDir)Socket;$(SolutionDir)WS2812B\bin\ARM\Release;$(SolutionDir)WS2812B\include;$(SolutionDir)WS2812B\src;$(SolutionDir)VL53L1X;$(SolutionDir)VL53L1X\bin\ARM\Release;$(SolutionDir)PCA9548A\bin\ARM\Release;$(SolutionDir)PCA9548A;$(SolutionDir)ADS1115;$(SolutionDir)ADS1115\bin\ARM\Release;$(SolutionDir)VL53L1X_dev\bin\ARM\Release;$(SolutionDir)VL53L1X_dev;$(SolutionDir)OMRON_44L\bin\ARM\Release;$(SolutionDir)OMRON_44L;$(SolutionDir)RPLidar;$(SolutionDir)RPLidar\src\arch\linux;$(SolutionDir)RPLidar\src;$(SolutionDir)RPLidar\include;$(SolutionDir)RPLidar\src\hal;$(IncludePath)</SourcePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <Link>
+      <LibraryDependencies>pthread;wiringPi</LibraryDependencies>
+      <AdditionalDependencies>/home/pi/projects/Socket/bin/ARM/Release/libSocket.a;/home/pi/projects/WS2812B/bin/ARM/Release/libWS2812B.a;/home/pi/projects/PCA9548A/bin/ARM/Release/libPCA9548A.a;/home/pi/projects/ADS1115/bin/ARM/Release/libADS1115.a;/home/pi/projects/VL53L1X_dev/bin/ARM/Release/libVL53L1X_dev.a;/home/pi/projects/OMRON_44L/bin/ARM/Release/libOMRON_44L.a;/home/pi/projects/RPLidar/bin/ARM/Release/libRPLidar.a;/home/pi/projects/SharedMemory/bin/ARM/Release/libSharedMemory.a;%(AdditionalDependencies)</AdditionalDependencies>
+      <OptimizeforMemory>true</OptimizeforMemory>
+      <Relocation>false</Relocation>
+      <WholeArchiveBegin>true</WholeArchiveBegin>
+      <VerboseOutput>true</VerboseOutput>
+      <ShowProgress>true</ShowProgress>
+      <Trace>true</Trace>
+    </Link>
+    <RemotePostBuildEvent>
+      <Command>
+      </Command>
+      <Message>
+      </Message>
+    </RemotePostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <Link>
+      <LibraryDependencies>pthread;wiringPi</LibraryDependencies>
+    </Link>
+    <RemotePostBuildEvent>
+      <Command>gpio export 40 out</Command>
+      <Message>
+      </Message>
+    </RemotePostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <Link>
+      <AdditionalDependencies>/home/pi/projects/Socket/bin/ARM/Release/libSocket.a;/home/pi/projects/WS2812B/bin/ARM/Release/libWS2812B.a;/home/pi/projects/PCA9548A/bin/ARM/Release/libPCA9548A.a;/home/pi/projects/ADS1115/bin/ARM/Release/libADS1115.a;/home/pi/projects/VL53L1X_dev/bin/ARM/Release/libVL53L1X_dev.a;/home/pi/projects/OMRON_44L/bin/ARM/Release/libOMRON_44L.a;/home/pi/projects/RPLidar/bin/ARM/Release/libRPLidar.a;/home/pi/projects/SharedMemory/bin/ARM/Release/libSharedMemory.a;/home/pi/projects/MyTimer/bin/ARM/Release/libMyTimer.a;%(AdditionalDependencies)</AdditionalDependencies>
+      <OptimizeforMemory>true</OptimizeforMemory>
+      <Relocation>false</Relocation>
+      <WholeArchiveBegin>false</WholeArchiveBegin>
+      <Trace>false</Trace>
+    </Link>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Disabled</Optimization>
+      <CppLanguageStandard>c++17</CppLanguageStandard>
+      <CompileAs>CompileAsCpp</CompileAs>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>

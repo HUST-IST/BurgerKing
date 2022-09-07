@@ -1,0 +1,1 @@
+ar -rsc  "/home/pi/projects/ADS1115/bin/ARM/Debug/libADS1115.a" /home/pi/projects/ADS1115/obj/ARM/Debug/ads1115rpi.o
